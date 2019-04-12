@@ -17,9 +17,6 @@ help:
 	@echo "        This will load the assistant in your terminal for you to chat."
 	@echo "    run-cmdline"
 	@echo "        This will load the assistant in your terminal for you to chat in debug mode."
-	@echo "    telegram"
-	@echo "        This will use your credentials.yml file to setup a webhook for the use with Telegram."
-
 clean:
 	find . -name '*.pyc' -exec rm -f {} +
 	find . -name '*.pyo' -exec rm -f {} +
