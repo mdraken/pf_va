@@ -1,0 +1,223 @@
+Starting Rasa Core server on http://localhost:5002
+Goin' Fast @ http://0.0.0.0:5002
+Added 'SpacyNLP' to component cache. Key 'SpacyNLP-en'.
+From C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\resource_variable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+From C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\keras\backend.py:4010: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+From C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+Sanic tried to use loop.add_signal_handler but it is not implemented on this platform.
+Sanic tried to use loop.add_signal_handler but it is not implemented on this platform.
+Starting worker [7228]
+Exception occurred while handling uri: 'http://localhost:5002/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\site-packages\sanic\app.py", line 736, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\site-packages\sanic\router.py", line 396, in get
+    return self._get(request.path, request.method, "")
+  File "C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\site-packages\sanic\router.py", line 458, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /webhooks/rest/webhook not found
+Exception occurred while handling uri: 'http://localhost:5002/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\site-packages\sanic\app.py", line 736, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\site-packages\sanic\router.py", line 396, in get
+    return self._get(request.path, request.method, "")
+  File "C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\site-packages\sanic\router.py", line 458, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /webhooks/rest/webhook not found
+Stopping worker [7228]
+Experienced exception while trying to serve
+Traceback (most recent call last):
+  File "C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\site-packages\sanic\app.py", line 914, in run
+    serve(**server_settings)
+  File "C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\site-packages\sanic\server.py", line 721, in serve
+    loop.run_forever()
+  File "C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\asyncio\base_events.py", line 539, in run_forever
+    self._run_once()
+  File "C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\asyncio\base_events.py", line 1739, in _run_once
+    event_list = self._selector.select(timeout)
+  File "C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\selectors.py", line 323, in select
+    r, w, _ = self._select(self._readers, self._writers, [], timeout)
+  File "C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\selectors.py", line 314, in _select
+    r, w, x = select.select(r, w, w, timeout)
+  File "C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\site-packages\engineio\client.py", line 41, in signal_handler
+    return original_signal_handler(sig, frame)
+KeyboardInterrupt
+Starting Rasa Core server on http://localhost:5002
+Goin' Fast @ http://0.0.0.0:5002
+Added 'SpacyNLP' to component cache. Key 'SpacyNLP-en'.
+From C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\resource_variable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+From C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\keras\backend.py:4010: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+From C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+Sanic tried to use loop.add_signal_handler but it is not implemented on this platform.
+Sanic tried to use loop.add_signal_handler but it is not implemented on this platform.
+Starting worker [13464]
+Exception occurred while handling uri: 'http://localhost:5002/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\site-packages\sanic\app.py", line 736, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\site-packages\sanic\router.py", line 396, in get
+    return self._get(request.path, request.method, "")
+  File "C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\site-packages\sanic\router.py", line 458, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /webhooks/rest/webhook not found
+Exception occurred while handling uri: 'http://localhost:5002/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\site-packages\sanic\app.py", line 736, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\site-packages\sanic\router.py", line 396, in get
+    return self._get(request.path, request.method, "")
+  File "C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\site-packages\sanic\router.py", line 458, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /webhooks/rest/webhook not found
+Stopping worker [13464]
+Experienced exception while trying to serve
+Traceback (most recent call last):
+  File "C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\site-packages\sanic\app.py", line 914, in run
+    serve(**server_settings)
+  File "C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\site-packages\sanic\server.py", line 721, in serve
+    loop.run_forever()
+  File "C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\asyncio\base_events.py", line 539, in run_forever
+    self._run_once()
+  File "C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\asyncio\base_events.py", line 1739, in _run_once
+    event_list = self._selector.select(timeout)
+  File "C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\selectors.py", line 323, in select
+    r, w, _ = self._select(self._readers, self._writers, [], timeout)
+  File "C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\selectors.py", line 314, in _select
+    r, w, x = select.select(r, w, w, timeout)
+  File "C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\site-packages\engineio\client.py", line 41, in signal_handler
+    return original_signal_handler(sig, frame)
+KeyboardInterrupt
+Starting Rasa Core server on http://localhost:5005
+Goin' Fast @ http://0.0.0.0:5005
+Added 'SpacyNLP' to component cache. Key 'SpacyNLP-en'.
+From C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\resource_variable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+From C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\keras\backend.py:4010: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+From C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+Sanic tried to use loop.add_signal_handler but it is not implemented on this platform.
+Sanic tried to use loop.add_signal_handler but it is not implemented on this platform.
+Starting worker [22920]
+Killing Sanic server now.
+Stopping worker [22920]
+Server Stopped
+Starting Rasa Core server on http://localhost:5002
+Goin' Fast @ http://0.0.0.0:5002
+Added 'SpacyNLP' to component cache. Key 'SpacyNLP-en'.
+From C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\resource_variable_ops.py:435: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+From C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\keras\backend.py:4010: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+From C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\ops\math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+Sanic tried to use loop.add_signal_handler but it is not implemented on this platform.
+Sanic tried to use loop.add_signal_handler but it is not implemented on this platform.
+Starting worker [19348]
+Failed to run custom action 'find_facility_types'. Couldn't connect to the server at 'http://localhost:5055/webhook'. Is the server running? Error: Cannot connect to host localhost:5055 ssl:None [Connect call failed ('127.0.0.1', 5055)]
+Encountered an exception while running action 'find_facility_types'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to run custom action 'find_facility_types'. Couldn't connect to the server at 'http://localhost:5055/webhook'. Is the server running? Error: Cannot connect to host localhost:5055 ssl:None [Connect call failed ('127.0.0.1', 5055)]
+Encountered an exception while running action 'find_facility_types'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to run custom action 'find_facility_types'. Couldn't connect to the server at 'http://localhost:5055/webhook'. Is the server running? Error: Cannot connect to host localhost:5055 ssl:None [Connect call failed ('127.0.0.1', 5055)]
+Encountered an exception while running action 'find_facility_types'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Exception occurred while handling uri: 'http://localhost:5002/inform%7B%22facility_type%22:%20%22rbry-mqwu%22%7D'
+Traceback (most recent call last):
+  File "C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\site-packages\sanic\app.py", line 736, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\site-packages\sanic\router.py", line 396, in get
+    return self._get(request.path, request.method, "")
+  File "C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\site-packages\sanic\router.py", line 458, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /inform{"facility_type": "rbry-mqwu"} not found
+Exception occurred while handling uri: unknown
+NoneType: None
+Exception occurred while handling uri: 'http://localhost:5002/webhooks/rest/webhook'
+Traceback (most recent call last):
+  File "C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\site-packages\sanic\app.py", line 736, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\site-packages\sanic\router.py", line 396, in get
+    return self._get(request.path, request.method, "")
+  File "C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\site-packages\sanic\router.py", line 435, in _get
+    raise method_not_supported
+sanic.exceptions.MethodNotSupported: Method GET not allowed for URL /webhooks/rest/webhook
+Exception occurred while handling uri: 'http://localhost:5002/webhook/rest/webhook'
+Traceback (most recent call last):
+  File "C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\site-packages\sanic\app.py", line 736, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\site-packages\sanic\router.py", line 396, in get
+    return self._get(request.path, request.method, "")
+  File "C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\site-packages\sanic\router.py", line 458, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /webhook/rest/webhook not found
+Exception occurred while handling uri: 'http://localhost:5002/webhooks/rest/webhook1'
+Traceback (most recent call last):
+  File "C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\site-packages\sanic\app.py", line 736, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\site-packages\sanic\router.py", line 396, in get
+    return self._get(request.path, request.method, "")
+  File "C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\site-packages\sanic\router.py", line 458, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /webhooks/rest/webhook1 not found
+Exception occurred while handling uri: 'http://localhost:5002/'
+Traceback (most recent call last):
+  File "C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\site-packages\sanic\app.py", line 736, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\site-packages\sanic\router.py", line 396, in get
+    return self._get(request.path, request.method, "")
+  File "C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\site-packages\sanic\router.py", line 458, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL / not found
+Exception occurred while handling uri: 'http://localhost:5002/favicon.ico'
+Traceback (most recent call last):
+  File "C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\site-packages\sanic\app.py", line 736, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\site-packages\sanic\router.py", line 396, in get
+    return self._get(request.path, request.method, "")
+  File "C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\site-packages\sanic\router.py", line 458, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /favicon.ico not found
+Exception occurred while handling uri: unknown
+NoneType: None
+Exception occurred while handling uri: unknown
+NoneType: None
+Exception occurred while handling uri: unknown
+NoneType: None
+Exception occurred while handling uri: unknown
+NoneType: None
+Exception occurred while handling uri: 'http://localhost:5002/'
+Traceback (most recent call last):
+  File "C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\site-packages\sanic\app.py", line 736, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\site-packages\sanic\router.py", line 396, in get
+    return self._get(request.path, request.method, "")
+  File "C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\site-packages\sanic\router.py", line 458, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL / not found
+Exception occurred while handling uri: 'http://localhost:5002/public/index.html'
+Traceback (most recent call last):
+  File "C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\site-packages\sanic\app.py", line 736, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\site-packages\sanic\router.py", line 396, in get
+    return self._get(request.path, request.method, "")
+  File "C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\site-packages\sanic\router.py", line 458, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /public/index.html not found
