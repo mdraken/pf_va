@@ -14,128 +14,55 @@ from rasa_core_sdk import Action
 from rasa_core_sdk.events import SlotSet, FollowupAction
 from rasa_core_sdk.forms import FormAction
 
-SEARCH_TYPES = {
 
-    "hospital":
-        {
-            "name": "Find a Doctor",
-            "resource": "FAD"
-        },
-    "nursing_home":
-        {
-            "name": "Choose your PCP",
-            "resource": "PCP"
-        },
-    "home_health":
-        {
-            "name": "How are you feeling today?",
-            "resource": "CUI"
-        }
-}
-	
-class FindSearchTypes(Action):
-    '''This action class allows to display buttons for each facility type
-    for the user to chose from to fill the facility_type entity slot.'''
-
+class FindProviders(Action):
     def name(self) -> Text:
         """Unique identifier of the action"""
 
-        return "find_search_types"
-
-    def run(self,
-            dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any]) -> List:
-
-        buttons = []
-        for t in SEARCH_TYPES:
-            find_search_types = SEARCH_TYPES[t]
-            payload = "/inform{\"find_search_types\": \"" + SEARCH_TYPES.get(
-                "resource") + "\"}"
-
-            buttons.append(
-                {"title": "{}".format(find_search_types.get("name").title()),
-                 "payload": payload})
-
-        dispatcher.utter_button_template("utter_greet", buttons, tracker,
-                                         button_type="custom")
-        return []
-
-def _find_facilities(location: Text, resource: Text) -> List[Dict]:
-    '''Returns json of facilities matching the search criteria.'''
-
-    if str.isdigit(location):
-        full_path = _create_path(ENDPOINTS["base"], resource,
-                                 ENDPOINTS[resource]["zip_code_query"],
-                                 location)
-    else:
-        full_path = _create_path(ENDPOINTS["base"], resource,
-                                 ENDPOINTS[resource]["city_query"],
-                                 location.upper())
-
-    results = requests.get(full_path).json()
-    return results
-
-
-def _resolve_name(facility_types, resource) ->Text:
-    for key, value in facility_types.items():
-        if value.get("resource") == resource:
-            return value.get("name")
-    return ""
-
-	
-class SearchProvider(Action):
-    '''This action class retrieves a list of all facilities matching
-    the supplied search criteria and displays buttons of random search
-    results to the user to pick from.'''
-
-    def name(self) -> Text:
-        """Unique identifier of the action"""
-
-        return "find_facilities"
-
+        return "find_providers"
     def run(self,
             dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List:
 
         location = tracker.get_slot('location')
-        facility_type = tracker.get_slot('speciality')
+        print(location)
+        speciality = tracker.get_slot('speciality')
+        print(speciality)
 
-        results = _find_facilities(location, speciality)
-        button_name = _resolve_name(FACILITY_TYPES, facility_type)
-        if len(results) == 0:
-            dispatcher.utter_message(
-                "Sorry, we could not find a {} in {}.".format(button_name,
-                                                              location))
-            return []
-
+        results = _find_providers(location, speciality)
         buttons = []
-        print("found {} facilities".format(len(results)))
+        print(results)
         for r in results:
-            if facility_type == FACILITY_TYPES["hospital"]["resource"]:
-                facility_id = r.get("provider_id")
-                name = r["hospital_name"]
-            elif facility_type == FACILITY_TYPES["nursing_home"]["resource"]:
-                facility_id = r["federal_provider_number"]
-                name = r["provider_name"]
-            else:
-                facility_id = r["provider_number"]
-                name = r["provider_name"]
-
-            payload = "/inform{\"facility_id\":\"" + facility_id + "\"}"
+            provider_id = r.get("provider_id")   
+            provider_name = r.get("provider_name")     
+            payload = "/inform{\"provider_id\":\"" + provider_id + "\"}"
             buttons.append(
-                {"title": "{}".format(name.title()), "payload": payload})
+                {"title": "{}".format(provider_name.title()), "payload": payload})
 
         # limit number of buttons to 3 here for clear presentation purpose
         dispatcher.utter_button_message(
             "Here is a list of {} {}s near you".format(len(buttons[:3]),
-                                                       button_name),
+                                                       "providers"),
             buttons[:3], button_type="vertical")
         # todo: note: button options are not working BUG in rasa_core
 
         return []
 
+def _find_providers(location: Text, speciality: Text) -> List[Dict]:
+    '''Returns json of facilities matching the search criteria.'''
+    results = [
+    {
+      "provider_id": "154656",
+      "provider_name": "Dr Jhon"
+    },
+    {
+      "provider_id": "2345",
+      "provider_name": "Dr Dileep"
+    }
+  ]
+
+    return results
 
 class SearchProviderForm(FormAction):
     """Custom form action to fill all slots required to find specific type
@@ -155,11 +82,9 @@ class SearchProviderForm(FormAction):
     def slot_mappings(self) -> Dict[Text, Any]:
         return {
             "speciality": self.from_entity(entity="speciality",
-                                              intent=["inform",
-                                                      "search_provider"]),
+                                              intent=["findadoctor","inform"]),
             "location": self.from_entity(entity="location",
-                                         intent=["inform",
-                                                 "search_provider"])}
+                                         intent=["findadoctor","inform"])}
 
     def submit(self,
                dispatcher: CollectingDispatcher,
@@ -173,4 +98,3 @@ class SearchProviderForm(FormAction):
         # utter submit template
         dispatcher.utter_template('utter_submit', tracker)
         return [FollowupAction('find_providers')]
-

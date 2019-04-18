@@ -1,0 +1,2405 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi bot"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey bot"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "hi again"
+      },
+      {
+        "intent": "greet",
+        "text": "hi folks"
+      },
+      {
+        "intent": "greet",
+        "text": "hi Mister"
+      },
+      {
+        "intent": "greet",
+        "text": "hi pal!"
+      },
+      {
+        "intent": "greet",
+        "text": "hi there"
+      },
+      {
+        "intent": "greet",
+        "text": "greetings"
+      },
+      {
+        "intent": "greet",
+        "text": "hello everybody"
+      },
+      {
+        "intent": "greet",
+        "text": "hello is anybody there"
+      },
+      {
+        "intent": "greet",
+        "text": "hello robot"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "thankyou",
+        "text": "Thanks"
+      },
+      {
+        "intent": "thankyou",
+        "text": "Thank you"
+      },
+      {
+        "intent": "thankyou",
+        "text": "Thank you so much"
+      },
+      {
+        "intent": "thankyou",
+        "text": "Thanks bot"
+      },
+      {
+        "intent": "thankyou",
+        "text": "Thanks for that"
+      },
+      {
+        "intent": "thankyou",
+        "text": "cheers"
+      },
+      {
+        "intent": "thankyou",
+        "text": "cheers bro"
+      },
+      {
+        "intent": "thankyou",
+        "text": "ok thanks!"
+      },
+      {
+        "intent": "thankyou",
+        "text": "perfect thank you"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thanks a bunch for everything"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thanks for the help"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thanks a lot"
+      },
+      {
+        "intent": "thankyou",
+        "text": "amazing, thanks"
+      },
+      {
+        "intent": "thankyou",
+        "text": "cool, thanks"
+      },
+      {
+        "intent": "thankyou",
+        "text": "cool thank you"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Sitka",
+            "entity": "location"
+          }
+        ],
+        "text": "Sitka"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Juneau",
+            "entity": "location"
+          }
+        ],
+        "text": "Juneau"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Virginia",
+            "entity": "location"
+          }
+        ],
+        "text": "Virginia"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Cusseta",
+            "entity": "location"
+          }
+        ],
+        "text": "Cusseta"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Chicago",
+            "entity": "location"
+          }
+        ],
+        "text": "Chicago"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Tucson",
+            "entity": "location"
+          }
+        ],
+        "text": "Tucson"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Columbus",
+            "entity": "location"
+          }
+        ],
+        "text": "Columbus"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Valdez",
+            "entity": "location"
+          }
+        ],
+        "text": "Valdez"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Preston",
+            "entity": "location"
+          }
+        ],
+        "text": "Preston"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Huntsville",
+            "entity": "location"
+          }
+        ],
+        "text": "Huntsville"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Boulder",
+            "entity": "location"
+          }
+        ],
+        "text": "Boulder"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "California",
+            "entity": "location"
+          }
+        ],
+        "text": "California"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Tulsa",
+            "entity": "location"
+          }
+        ],
+        "text": "Tulsa"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Colorado",
+            "entity": "location"
+          }
+        ],
+        "text": "Colorado"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Goodyear",
+            "entity": "location"
+          }
+        ],
+        "text": "Goodyear"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Albuquerque",
+            "entity": "location"
+          }
+        ],
+        "text": "Albuquerque"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Scottsdale",
+            "entity": "location"
+          }
+        ],
+        "text": "Scottsdale"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Hibbing",
+            "entity": "location"
+          }
+        ],
+        "text": "Hibbing"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Norman",
+            "entity": "location"
+          }
+        ],
+        "text": "Norman"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "San",
+            "entity": "location"
+          }
+        ],
+        "text": "San"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Peoria",
+            "entity": "location"
+          }
+        ],
+        "text": "Peoria"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "New",
+            "entity": "location"
+          }
+        ],
+        "text": "New"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Corpus",
+            "entity": "location"
+          }
+        ],
+        "text": "Corpus"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Montgomery",
+            "entity": "location"
+          }
+        ],
+        "text": "Montgomery"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Wichita",
+            "entity": "location"
+          }
+        ],
+        "text": "Wichita"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Aurora",
+            "entity": "location"
+          }
+        ],
+        "text": "Aurora"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Denver",
+            "entity": "location"
+          }
+        ],
+        "text": "Denver"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Sierra",
+            "entity": "location"
+          }
+        ],
+        "text": "Sierra"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Georgetown",
+            "entity": "location"
+          }
+        ],
+        "text": "Georgetown"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Birmingham",
+            "entity": "location"
+          }
+        ],
+        "text": "Birmingham"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "Fayetteville",
+            "entity": "location"
+          }
+        ],
+        "text": "Fayetteville"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Carson",
+            "entity": "location"
+          }
+        ],
+        "text": "Carson"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Raleigh",
+            "entity": "location"
+          }
+        ],
+        "text": "Raleigh"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Bakersfield",
+            "entity": "location"
+          }
+        ],
+        "text": "Bakersfield"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Mobile",
+            "entity": "location"
+          }
+        ],
+        "text": "Mobile"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Detroit",
+            "entity": "location"
+          }
+        ],
+        "text": "Detroit"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Bunnell",
+            "entity": "location"
+          }
+        ],
+        "text": "Bunnell"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Chattanooga",
+            "entity": "location"
+          }
+        ],
+        "text": "Chattanooga"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Mesa",
+            "entity": "location"
+          }
+        ],
+        "text": "Mesa"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Fernley",
+            "entity": "location"
+          }
+        ],
+        "text": "Fernley"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Marana",
+            "entity": "location"
+          }
+        ],
+        "text": "Marana"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Yuma",
+            "entity": "location"
+          }
+        ],
+        "text": "Yuma"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Little",
+            "entity": "location"
+          }
+        ],
+        "text": "Little"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Athens",
+            "entity": "location"
+          }
+        ],
+        "text": "Athens"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Hartsville",
+            "entity": "location"
+          }
+        ],
+        "text": "Hartsville"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Port",
+            "entity": "location"
+          }
+        ],
+        "text": "Port"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Tampa",
+            "entity": "location"
+          }
+        ],
+        "text": "Tampa"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Fresno",
+            "entity": "location"
+          }
+        ],
+        "text": "Fresno"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Unalaska",
+            "entity": "location"
+          }
+        ],
+        "text": "Unalaska"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Eloy",
+            "entity": "location"
+          }
+        ],
+        "text": "Eloy"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Salt",
+            "entity": "location"
+          }
+        ],
+        "text": "Salt"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Jackson",
+            "entity": "location"
+          }
+        ],
+        "text": "Jackson"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Fort",
+            "entity": "location"
+          }
+        ],
+        "text": "Fort"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Casa",
+            "entity": "location"
+          }
+        ],
+        "text": "Casa"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Charleston",
+            "entity": "location"
+          }
+        ],
+        "text": "Charleston"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Henderson",
+            "entity": "location"
+          }
+        ],
+        "text": "Henderson"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Durham",
+            "entity": "location"
+          }
+        ],
+        "text": "Durham"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Abilene",
+            "entity": "location"
+          }
+        ],
+        "text": "Abilene"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Palmdale",
+            "entity": "location"
+          }
+        ],
+        "text": "Palmdale"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Babbitt",
+            "entity": "location"
+          }
+        ],
+        "text": "Babbitt"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Surprise",
+            "entity": "location"
+          }
+        ],
+        "text": "Surprise"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Cape",
+            "entity": "location"
+          }
+        ],
+        "text": "Cape"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Shreveport",
+            "entity": "location"
+          }
+        ],
+        "text": "Shreveport"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "Rio",
+            "entity": "location"
+          }
+        ],
+        "text": "Rio"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Savannah",
+            "entity": "location"
+          }
+        ],
+        "text": "Savannah"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Reno",
+            "entity": "location"
+          }
+        ],
+        "text": "Reno"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Orlando",
+            "entity": "location"
+          }
+        ],
+        "text": "Orlando"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "North",
+            "entity": "location"
+          }
+        ],
+        "text": "North"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Tallahassee",
+            "entity": "location"
+          }
+        ],
+        "text": "Tallahassee"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Amarillo",
+            "entity": "location"
+          }
+        ],
+        "text": "Amarillo"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "St",
+            "entity": "location"
+          }
+        ],
+        "text": "St"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Knoxville",
+            "entity": "location"
+          }
+        ],
+        "text": "Knoxville"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Sacramento",
+            "entity": "location"
+          }
+        ],
+        "text": "Sacramento"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Clarksville",
+            "entity": "location"
+          }
+        ],
+        "text": "Clarksville"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Los Angeles",
+            "entity": "location"
+          }
+        ],
+        "text": "Los Angeles"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "New York",
+            "entity": "location"
+          }
+        ],
+        "text": "New York"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Las Vegas",
+            "entity": "location"
+          }
+        ],
+        "text": "Las Vegas"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "San Diego",
+            "entity": "location"
+          }
+        ],
+        "text": "San Diego"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "San Antonio",
+            "entity": "location"
+          }
+        ],
+        "text": "San Antonio"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "El Paso",
+            "entity": "location"
+          }
+        ],
+        "text": "El Paso"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "Kansas location",
+            "entity": "location"
+          }
+        ],
+        "text": "Kansas location"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "San Francisco",
+            "entity": "location"
+          }
+        ],
+        "text": "San Francisco"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "Santa Barbara",
+            "entity": "location"
+          }
+        ],
+        "text": "Santa Barbara"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "orthopedic",
+            "entity": "speciality"
+          }
+        ],
+        "text": "orthopedic"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Physcian",
+            "entity": "speciality"
+          }
+        ],
+        "text": "Physcian  in [Richmond] (location)"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Cardiology",
+            "entity": "speciality"
+          }
+        ],
+        "text": "Cardiology"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "Chiropractic",
+            "entity": "speciality"
+          }
+        ],
+        "text": "Chiropractic"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Dermatology",
+            "entity": "speciality"
+          }
+        ],
+        "text": "Dermatology"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "Family Practice",
+            "entity": "speciality"
+          }
+        ],
+        "text": "Family Practice"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Neurology",
+            "entity": "speciality"
+          }
+        ],
+        "text": "Neurology"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "Gastroenterology",
+            "entity": "speciality"
+          }
+        ],
+        "text": "Gastroenterology"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "General Surgery",
+            "entity": "speciality"
+          }
+        ],
+        "text": "General Surgery"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Hematology",
+            "entity": "speciality"
+          }
+        ],
+        "text": "Hematology"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Urology",
+            "entity": "speciality"
+          }
+        ],
+        "text": "Urology"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "Cardiologist",
+            "entity": "speciality"
+          }
+        ],
+        "text": "Cardiologist in [Richmond] (location)"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "Gastroenterologist",
+            "entity": "speciality"
+          }
+        ],
+        "text": "Gastroenterologist in [Richmond] (location)"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "Dermatologist",
+            "entity": "speciality"
+          }
+        ],
+        "text": "Dermatologist in [San Francisco] (location)"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 7,
+            "end": 18,
+            "value": "Dermatology",
+            "entity": "speciality"
+          }
+        ],
+        "text": "nearby Dermatology"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 7,
+            "end": 25,
+            "value": "Gastroenterologist",
+            "entity": "speciality"
+          }
+        ],
+        "text": "nearby Gastroenterologist"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 7,
+            "end": 22,
+            "value": "Family Practice",
+            "entity": "speciality"
+          }
+        ],
+        "text": "nearby Family Practice"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 7,
+            "end": 22,
+            "value": "Sports Medicine",
+            "entity": "speciality"
+          }
+        ],
+        "text": "nearby Sports Medicine"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 7,
+            "end": 19,
+            "value": "Cardiologist",
+            "entity": "speciality"
+          }
+        ],
+        "text": "search Cardiologist"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 4,
+            "end": 13,
+            "value": "urologist",
+            "entity": "speciality"
+          }
+        ],
+        "text": "get urologist"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 13,
+            "value": "Physcian",
+            "entity": "speciality"
+          }
+        ],
+        "text": "Need Physcian"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 7,
+            "end": 19,
+            "value": "Hematologist",
+            "entity": "speciality"
+          }
+        ],
+        "text": "select Hematologist"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Urologist",
+            "entity": "speciality"
+          }
+        ],
+        "text": "Urologist"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Surgeon",
+            "entity": "speciality"
+          }
+        ],
+        "text": "Surgeon"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "General Surgeon",
+            "entity": "speciality"
+          }
+        ],
+        "text": "General Surgeon"
+      },
+      {
+        "intent": "inform",
+        "text": "[Richmond] (location)"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 19,
+            "value": "Orthopedics - Lower",
+            "entity": "speciality"
+          }
+        ],
+        "text": "Orthopedics - Lower"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 19,
+            "value": "Orthopedics - Upper",
+            "entity": "speciality"
+          }
+        ],
+        "text": "Orthopedics - Upper"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Radiology",
+            "entity": "speciality"
+          }
+        ],
+        "text": "Radiology"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Radiologist",
+            "entity": "speciality"
+          }
+        ],
+        "text": "Radiologist"
+      },
+      {
+        "intent": "findadoctor",
+        "text": "find a doctor"
+      },
+      {
+        "intent": "findadoctor",
+        "text": "search a doctor"
+      },
+      {
+        "intent": "findadoctor",
+        "text": "get a doctor"
+      },
+      {
+        "intent": "findadoctor",
+        "text": "need a doctor"
+      },
+      {
+        "intent": "findadoctor",
+        "text": "find a care"
+      },
+      {
+        "intent": "findadoctor",
+        "text": "care in [Richmond] (location)"
+      },
+      {
+        "intent": "findadoctor",
+        "text": "doctor in [Richmond] (location)"
+      },
+      {
+        "intent": "findadoctor",
+        "text": "doctor in [San Francisco] (location)"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 9,
+            "end": 19,
+            "value": "orthopedic",
+            "entity": "speciality"
+          }
+        ],
+        "text": "i need a orthopedic doctor in [Richmond] (location)"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 8,
+            "end": 18,
+            "value": "orthopedic",
+            "entity": "speciality"
+          }
+        ],
+        "text": "find a  orthopedic doctor in [Las Vegas] (location)"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 9,
+            "end": 17,
+            "value": "Physcian",
+            "entity": "speciality"
+          }
+        ],
+        "text": "i need a Physcian doctor in [Richmond] (location)"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 14,
+            "end": 24,
+            "value": "orthopedic",
+            "entity": "speciality"
+          }
+        ],
+        "text": "find a nearby orthopedic doctor"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 14,
+            "end": 21,
+            "value": "Urology",
+            "entity": "speciality"
+          }
+        ],
+        "text": "find a nearby Urology doctor"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 14,
+            "end": 23,
+            "value": "Neurology",
+            "entity": "speciality"
+          }
+        ],
+        "text": "find a nearby Neurology doctor"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 14,
+            "end": 25,
+            "value": "Dermatology",
+            "entity": "speciality"
+          }
+        ],
+        "text": "find a nearby Dermatology doctor"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 14,
+            "end": 27,
+            "value": "Dermatologist",
+            "entity": "speciality"
+          }
+        ],
+        "text": "find a nearby Dermatologist doctor"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 14,
+            "end": 26,
+            "value": "Cardiologist",
+            "entity": "speciality"
+          }
+        ],
+        "text": "find a nearby Cardiologist doctor"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 14,
+            "end": 22,
+            "value": "Physcian",
+            "entity": "speciality"
+          }
+        ],
+        "text": "find a nearby Physcian doctor"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 9,
+            "end": 22,
+            "value": "Dermatologist",
+            "entity": "speciality"
+          }
+        ],
+        "text": "i need a Dermatologist doctor in [San Francisco] (location)"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 9,
+            "end": 27,
+            "value": "Gastroenterologist",
+            "entity": "speciality"
+          }
+        ],
+        "text": "i need a Gastroenterologist doctor in [Richmond] (location)"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 9,
+            "end": 21,
+            "value": "Cardiologist",
+            "entity": "speciality"
+          }
+        ],
+        "text": "i need a Cardiologist doctor in [Richmond] (location)"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 15,
+            "end": 25,
+            "value": "orthopedic",
+            "entity": "speciality"
+          }
+        ],
+        "text": "find doctor in orthopedic"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 15,
+            "end": 22,
+            "value": "Urology",
+            "entity": "speciality"
+          }
+        ],
+        "text": "find doctor in Urology"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 15,
+            "end": 24,
+            "value": "Neurology",
+            "entity": "speciality"
+          }
+        ],
+        "text": "find doctor in Neurology"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 15,
+            "end": 26,
+            "value": "Dermatology",
+            "entity": "speciality"
+          }
+        ],
+        "text": "find doctor in Dermatology"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 15,
+            "end": 28,
+            "value": "Dermatologist",
+            "entity": "speciality"
+          }
+        ],
+        "text": "find doctor in Dermatologist"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 15,
+            "end": 27,
+            "value": "Cardiologist",
+            "entity": "speciality"
+          }
+        ],
+        "text": "find doctor in Cardiologist"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 15,
+            "end": 23,
+            "value": "Physcian",
+            "entity": "speciality"
+          }
+        ],
+        "text": "find doctor in Physcian"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 14,
+            "end": 24,
+            "value": "orthopedic",
+            "entity": "speciality"
+          }
+        ],
+        "text": "get doctor in orthopedic"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 14,
+            "end": 21,
+            "value": "Urology",
+            "entity": "speciality"
+          }
+        ],
+        "text": "get doctor in Urology"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 14,
+            "end": 23,
+            "value": "Neurology",
+            "entity": "speciality"
+          }
+        ],
+        "text": "get doctor in Neurology"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 14,
+            "end": 25,
+            "value": "Dermatology",
+            "entity": "speciality"
+          }
+        ],
+        "text": "get doctor in Dermatology"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 14,
+            "end": 27,
+            "value": "Dermatologist",
+            "entity": "speciality"
+          }
+        ],
+        "text": "get doctor in Dermatologist"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 14,
+            "end": 26,
+            "value": "Cardiologist",
+            "entity": "speciality"
+          }
+        ],
+        "text": "get doctor in Cardiologist"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 14,
+            "end": 22,
+            "value": "Physcian",
+            "entity": "speciality"
+          }
+        ],
+        "text": "get doctor in Physcian"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 10,
+            "end": 20,
+            "value": "orthopedic",
+            "entity": "speciality"
+          }
+        ],
+        "text": "doctor in orthopedic"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 10,
+            "end": 17,
+            "value": "Urology",
+            "entity": "speciality"
+          }
+        ],
+        "text": "doctor in Urology"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 10,
+            "end": 19,
+            "value": "Neurology",
+            "entity": "speciality"
+          }
+        ],
+        "text": "doctor in Neurology"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 10,
+            "end": 21,
+            "value": "Dermatology",
+            "entity": "speciality"
+          }
+        ],
+        "text": "doctor in Dermatology"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 10,
+            "end": 23,
+            "value": "Dermatologist",
+            "entity": "speciality"
+          }
+        ],
+        "text": "doctor in Dermatologist"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 10,
+            "end": 22,
+            "value": "Cardiologist",
+            "entity": "speciality"
+          }
+        ],
+        "text": "doctor in Cardiologist"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 10,
+            "end": 18,
+            "value": "Physcian",
+            "entity": "speciality"
+          }
+        ],
+        "text": "doctor in Physcian"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 17,
+            "end": 27,
+            "value": "orthopedic",
+            "entity": "speciality"
+          }
+        ],
+        "text": "search doctor in orthopedic"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 17,
+            "end": 24,
+            "value": "Urology",
+            "entity": "speciality"
+          }
+        ],
+        "text": "search doctor in Urology"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 17,
+            "end": 26,
+            "value": "Neurology",
+            "entity": "speciality"
+          }
+        ],
+        "text": "search doctor in Neurology"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 17,
+            "end": 28,
+            "value": "Dermatology",
+            "entity": "speciality"
+          }
+        ],
+        "text": "search doctor in Dermatology"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 17,
+            "end": 30,
+            "value": "Dermatologist",
+            "entity": "speciality"
+          }
+        ],
+        "text": "search doctor in Dermatologist"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 17,
+            "end": 29,
+            "value": "Cardiologist",
+            "entity": "speciality"
+          }
+        ],
+        "text": "search doctor in Cardiologist"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 17,
+            "end": 25,
+            "value": "Physcian",
+            "entity": "speciality"
+          }
+        ],
+        "text": "search doctor in Physcian"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 13,
+            "end": 23,
+            "value": "orthopedic",
+            "entity": "speciality"
+          }
+        ],
+        "text": "find care in orthopedic"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 13,
+            "end": 20,
+            "value": "Urology",
+            "entity": "speciality"
+          }
+        ],
+        "text": "find care in Urology"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 13,
+            "end": 22,
+            "value": "Neurology",
+            "entity": "speciality"
+          }
+        ],
+        "text": "find care in Neurology"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 13,
+            "end": 24,
+            "value": "Dermatology",
+            "entity": "speciality"
+          }
+        ],
+        "text": "find care in Dermatology"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 13,
+            "end": 26,
+            "value": "Dermatologist",
+            "entity": "speciality"
+          }
+        ],
+        "text": "find care in Dermatologist"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 13,
+            "end": 25,
+            "value": "Cardiologist",
+            "entity": "speciality"
+          }
+        ],
+        "text": "find care in Cardiologist"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 13,
+            "end": 21,
+            "value": "Physcian",
+            "entity": "speciality"
+          }
+        ],
+        "text": "find care in Physcian"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 21,
+            "end": 31,
+            "value": "orthopedic",
+            "entity": "speciality"
+          }
+        ],
+        "text": "find professional in orthopedic"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "value": "Urology",
+            "entity": "speciality"
+          }
+        ],
+        "text": "find professional in Urology"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 21,
+            "end": 30,
+            "value": "Neurology",
+            "entity": "speciality"
+          }
+        ],
+        "text": "find professional in Neurology"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 21,
+            "end": 32,
+            "value": "Dermatology",
+            "entity": "speciality"
+          }
+        ],
+        "text": "find professional in Dermatology"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 21,
+            "end": 34,
+            "value": "Dermatologist",
+            "entity": "speciality"
+          }
+        ],
+        "text": "find professional in Dermatologist"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 21,
+            "end": 33,
+            "value": "Cardiologist",
+            "entity": "speciality"
+          }
+        ],
+        "text": "find professional in Cardiologist"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 21,
+            "end": 29,
+            "value": "Physcian",
+            "entity": "speciality"
+          }
+        ],
+        "text": "find professional in Physcian"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 10,
+            "end": 20,
+            "value": "orthopedic",
+            "entity": "speciality"
+          }
+        ],
+        "text": "doctor in orthopedic"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 10,
+            "end": 17,
+            "value": "Urology",
+            "entity": "speciality"
+          }
+        ],
+        "text": "doctor in Urology"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 10,
+            "end": 19,
+            "value": "Neurology",
+            "entity": "speciality"
+          }
+        ],
+        "text": "doctor in Neurology"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 10,
+            "end": 21,
+            "value": "Dermatology",
+            "entity": "speciality"
+          }
+        ],
+        "text": "doctor in Dermatology"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 10,
+            "end": 23,
+            "value": "Dermatologist",
+            "entity": "speciality"
+          }
+        ],
+        "text": "doctor in Dermatologist"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 10,
+            "end": 22,
+            "value": "Cardiologist",
+            "entity": "speciality"
+          }
+        ],
+        "text": "doctor in Cardiologist"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 10,
+            "end": 18,
+            "value": "Physcian",
+            "entity": "speciality"
+          }
+        ],
+        "text": "doctor in Physcian"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 18,
+            "end": 28,
+            "value": "orthopedic",
+            "entity": "speciality"
+          }
+        ],
+        "text": "doctor available  orthopedic"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 17,
+            "end": 24,
+            "value": "Urology",
+            "entity": "speciality"
+          }
+        ],
+        "text": "doctor available Urology"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 17,
+            "end": 26,
+            "value": "Neurology",
+            "entity": "speciality"
+          }
+        ],
+        "text": "doctor available Neurology"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 17,
+            "end": 28,
+            "value": "Dermatology",
+            "entity": "speciality"
+          }
+        ],
+        "text": "doctor available Dermatology"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 17,
+            "end": 30,
+            "value": "Dermatologist",
+            "entity": "speciality"
+          }
+        ],
+        "text": "doctor available Dermatologist"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 17,
+            "end": 29,
+            "value": "Cardiologist",
+            "entity": "speciality"
+          }
+        ],
+        "text": "doctor available Cardiologist"
+      },
+      {
+        "intent": "findadoctor",
+        "entities": [
+          {
+            "start": 17,
+            "end": 25,
+            "value": "Physcian",
+            "entity": "speciality"
+          }
+        ],
+        "text": "doctor available Physcian"
+      },
+      {
+        "intent": "affirm",
+        "text": "yeah looking for a specialist"
+      },
+      {
+        "intent": "affirm",
+        "text": "correct"
+      },
+      {
+        "intent": "affirm",
+        "text": "ye"
+      },
+      {
+        "intent": "affirm",
+        "text": "uh yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "let's do it"
+      },
+      {
+        "intent": "affirm",
+        "text": "yeah"
+      },
+      {
+        "intent": "affirm",
+        "text": "uh yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "um yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes correct"
+      },
+      {
+        "intent": "affirm",
+        "text": "that's correct"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "right"
+      },
+      {
+        "intent": "affirm",
+        "text": "yea"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes right"
+      },
+      {
+        "intent": "affirm",
+        "text": "right on"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

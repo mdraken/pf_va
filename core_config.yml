@@ -1,7 +1,16 @@
 policies:
-  - name: FormPolicy
   - name: KerasPolicy
-    epochs: 50
-    max_history: 6
+    epochs: 300
+    max_history: 5
+  - name: "FallbackPolicy"
+    # min confidence needed to accept an NLU prediction
+    nlu_threshold: 0.75
+    # min confidence needed to accept an action prediction from Rasa Core
+    core_threshold: 0.75
+    # name of the action to be called if the confidence of intent / action
+    # is below the threshold
+    fallback_action_name: 'action_default_fallback'
   - name: MemoizationPolicy
-    max_history: 6
+    max_history: 5
+  - name: FormPolicy
+

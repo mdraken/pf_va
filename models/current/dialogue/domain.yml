@@ -1,0 +1,70 @@
+%YAML 1.1
+---
+actions:
+- utter_greet
+- utter_default
+- utter_noworries
+- utter_ask_location
+- utter_ask_speciality
+- utter_ask_doctor_search
+- find_providers
+config:
+  store_entities_as_slots: true
+entities:
+- speciality
+- location
+- search_type
+forms:
+- searchprovider_form
+intents:
+- greet:
+    use_entities: true
+- thankyou:
+    use_entities: true
+- findadoctor:
+    use_entities: true
+- inform:
+    use_entities: true
+- affirm:
+    use_entities: true
+slots:
+  location:
+    auto_fill: false
+    initial_value: null
+    type: rasa.core.slots.UnfeaturizedSlot
+  matches:
+    auto_fill: true
+    initial_value: null
+    type: rasa.core.slots.TextSlot
+  requested_slot:
+    auto_fill: true
+    initial_value: null
+    type: rasa.core.slots.UnfeaturizedSlot
+  search_type:
+    auto_fill: false
+    initial_value: null
+    type: rasa.core.slots.TextSlot
+  speciality:
+    auto_fill: false
+    initial_value: null
+    type: rasa.core.slots.UnfeaturizedSlot
+templates:
+  utter_ask_doctor_search:
+  - text: Are you looking for a doctor?
+  - text: Do you need any help to find a doctor?
+  utter_ask_location:
+  - text: Please provide your city name.
+  - text: What is you current city?
+  - text: Please provide your city name or zip code.
+  - text: Please enter your zip code or city name to find local providers.
+  utter_ask_speciality:
+  - text: Please provide speciality which you are looking for.
+  - text: Provide the speciality
+  - text: Please mention the speciality
+  utter_default:
+  - text: Sorry, I didn’t understand that
+  utter_greet:
+  - text: Hi. What are you looking for?
+  utter_noworries:
+  - text: My pleasure.
+  - text: You are welcome!

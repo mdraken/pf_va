@@ -1,0 +1,247 @@
+## intent:greet
+- Hi
+- Hey
+- Hi bot
+- Hey bot
+- Hello
+- good morning
+- hi again
+- hi folks
+- hi Mister
+- hi pal!
+- hi there
+- greetings
+- hello everybody
+- hello is anybody there
+- hello robot
+- hi
+
+## intent:thankyou
+- Thanks
+- Thank you
+- Thank you so much
+- Thanks bot
+- Thanks for that
+- cheers
+- cheers bro
+- ok thanks!
+- perfect thank you
+- thanks a bunch for everything
+- thanks for the help
+- thanks a lot
+- amazing, thanks
+- cool, thanks
+- cool thank you
+
+## intent:inform
+- [Sitka](location)
+- [Juneau](location)
+- [Virginia](location)
+- [Cusseta](location)
+- [Chicago](location)
+- [Tucson](location)
+- [Columbus](location)
+- [Valdez](location)
+- [Preston](location)
+- [Huntsville](location)
+- [Boulder](location)
+- [California](location)
+- [Tulsa](location)
+- [Colorado](location)
+- [Goodyear](location)
+- [Albuquerque](location)
+- [Scottsdale](location)
+- [Hibbing](location)
+- [Norman](location)
+- [San](location)
+- [Peoria](location)
+- [New](location)
+- [Corpus](location)
+- [Montgomery](location)
+- [Wichita](location)
+- [Aurora](location)
+- [Denver](location)
+- [Sierra](location)
+- [Georgetown](location)
+- [Birmingham](location)
+- [Fayetteville](location)
+- [Carson](location)
+- [Raleigh](location)
+- [Bakersfield](location)
+- [Mobile](location)
+- [Detroit](location)
+- [Bunnell](location)
+- [Chattanooga](location)
+- [Mesa](location)
+- [Fernley](location)
+- [Marana](location)
+- [Yuma](location)
+- [Little](location)
+- [Athens](location)
+- [Hartsville](location)
+- [Port](location)
+- [Tampa](location)
+- [Fresno](location)
+- [Unalaska](location)
+- [Eloy](location)
+- [Salt](location)
+- [Jackson](location)
+- [Fort](location)
+- [Casa](location)
+- [Charleston](location)
+- [Henderson](location)
+- [Durham](location)
+- [Abilene](location)
+- [Palmdale](location)
+- [Babbitt](location)
+- [Surprise](location)
+- [Cape](location)
+- [Shreveport](location)
+- [Rio](location)
+- [Savannah](location)
+- [Reno](location)
+- [Orlando](location)
+- [North](location)
+- [Tallahassee](location)
+- [Amarillo](location)
+- [St](location)
+- [Knoxville](location)
+- [Sacramento](location)
+- [Clarksville](location)
+- [Los Angeles](location)
+- [New York](location)
+- [Las Vegas](location)
+- [San Diego](location)
+- [San Antonio](location)
+- [El Paso](location)
+- [Kansas location](location)
+- [San Francisco](location)
+- [Santa Barbara](location)
+- [orthopedic](speciality)
+- [Physcian](speciality)  in [Richmond] (location)
+- [Cardiology](speciality) 
+- [Chiropractic](speciality) 
+- [Dermatology](speciality) 
+- [Family Practice](speciality) 
+- [Neurology](speciality) 
+- [Gastroenterology](speciality) 
+- [General Surgery](speciality) 
+- [Hematology](speciality) 
+- [Urology](speciality) 
+- [Cardiologist](speciality) in [Richmond] (location)
+- [Gastroenterologist](speciality) in [Richmond] (location)
+- [Dermatologist](speciality) in [San Francisco] (location)
+- nearby [Dermatology](speciality) 
+- nearby [Gastroenterologist](speciality) 
+- nearby [Family Practice](speciality)
+- nearby [Sports Medicine](speciality)
+- search [Cardiologist](speciality)
+- get [urologist](speciality)
+- Need [Physcian](speciality)
+- select [Hematologist](speciality)
+- [Urologist](speciality) 
+- [Surgeon](speciality) 
+- [General Surgeon](speciality) 
+- [Richmond] (location)
+- [Orthopedics - Lower](speciality) 
+- [Orthopedics - Upper](speciality) 
+- [Radiology](speciality) 
+- [Radiologist](speciality) 
+
+## intent:findadoctor
+- find a doctor
+- search a doctor
+- get a doctor
+- need a doctor
+- find a care
+- care in [Richmond] (location)
+- doctor in [Richmond] (location)
+- doctor in [San Francisco] (location)
+- i need a [orthopedic](speciality) doctor in [Richmond] (location)
+- find a  [orthopedic](speciality) doctor in [Las Vegas] (location)
+- i need a [Physcian](speciality) doctor in [Richmond] (location)
+- find a nearby [orthopedic](speciality) doctor
+- find a nearby [Urology](speciality) doctor
+- find a nearby [Neurology](speciality) doctor
+- find a nearby [Dermatology](speciality) doctor
+- find a nearby [Dermatologist](speciality) doctor
+- find a nearby [Cardiologist](speciality) doctor
+- find a nearby [Physcian](speciality) doctor
+- i need a [Dermatologist](speciality) doctor in [San Francisco] (location)
+- i need a [Gastroenterologist](speciality) doctor in [Richmond] (location)
+- i need a [Cardiologist](speciality) doctor in [Richmond] (location)
+- find doctor in [orthopedic](speciality) 
+- find doctor in [Urology](speciality) 
+- find doctor in [Neurology](speciality) 
+- find doctor in [Dermatology](speciality) 
+- find doctor in [Dermatologist](speciality) 
+- find doctor in [Cardiologist](speciality) 
+- find doctor in [Physcian](speciality) 
+- get doctor in [orthopedic](speciality) 
+- get doctor in [Urology](speciality) 
+- get doctor in [Neurology](speciality) 
+- get doctor in [Dermatology](speciality) 
+- get doctor in [Dermatologist](speciality) 
+- get doctor in [Cardiologist](speciality) 
+- get doctor in [Physcian](speciality) 
+- doctor in [orthopedic](speciality) 
+- doctor in [Urology](speciality) 
+- doctor in [Neurology](speciality) 
+- doctor in [Dermatology](speciality) 
+- doctor in [Dermatologist](speciality) 
+- doctor in [Cardiologist](speciality) 
+- doctor in [Physcian](speciality) 
+- search doctor in [orthopedic](speciality) 
+- search doctor in [Urology](speciality) 
+- search doctor in [Neurology](speciality) 
+- search doctor in [Dermatology](speciality) 
+- search doctor in [Dermatologist](speciality) 
+- search doctor in [Cardiologist](speciality) 
+- search doctor in [Physcian](speciality) 
+- find care in [orthopedic](speciality) 
+- find care in [Urology](speciality) 
+- find care in [Neurology](speciality) 
+- find care in [Dermatology](speciality) 
+- find care in [Dermatologist](speciality) 
+- find care in [Cardiologist](speciality) 
+- find care in [Physcian](speciality) 
+- find professional in [orthopedic](speciality) 
+- find professional in [Urology](speciality) 
+- find professional in [Neurology](speciality) 
+- find professional in [Dermatology](speciality) 
+- find professional in [Dermatologist](speciality) 
+- find professional in [Cardiologist](speciality) 
+- find professional in [Physcian](speciality) 
+- doctor in [orthopedic](speciality) 
+- doctor in [Urology](speciality) 
+- doctor in [Neurology](speciality) 
+- doctor in [Dermatology](speciality) 
+- doctor in [Dermatologist](speciality) 
+- doctor in [Cardiologist](speciality) 
+- doctor in [Physcian](speciality) 
+- doctor available  [orthopedic](speciality) 
+- doctor available [Urology](speciality) 
+- doctor available [Neurology](speciality) 
+- doctor available [Dermatology](speciality) 
+- doctor available [Dermatologist](speciality) 
+- doctor available [Cardiologist](speciality) 
+- doctor available [Physcian](speciality) 
+
+
+## intent:affirm
+- yeah looking for a specialist
+- correct
+- ye
+- uh yes
+- let's do it
+- yeah
+- uh yes
+- um yes
+- yes correct
+- that's correct
+- yes yes
+- right
+- yea
+- yes
+- yes right
+- right on

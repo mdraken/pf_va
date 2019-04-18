@@ -46,3 +46,7 @@ run-cmdline:
 
 telegram:
 	python -m rasa_core.run -d models/current/dialogue -u models/current/nlu --port 5005 --credentials credentials.yml --endpoints endpoints.yml
+
+Restapi:
+    python -m rasa_core.run -d models/current/dialogue -u models/current/nlu --endpoints endpoints.yml --port 5002 --credentials credentials.yml
+
