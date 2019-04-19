@@ -2,6 +2,7 @@
   "states": [
     "intent_affirm",
     "intent_findadoctor",
+    "intent_findadoctor_form",
     "intent_greet",
     "intent_inform",
     "intent_thankyou",
@@ -17,15 +18,13 @@
     "prev_action_revert_fallback_events",
     "prev_action_default_ask_affirmation",
     "prev_action_default_ask_rephrase",
-    "prev_action_back",
     "prev_utter_greet",
     "prev_utter_default",
     "prev_utter_noworries",
     "prev_utter_ask_location",
     "prev_utter_ask_speciality",
     "prev_utter_ask_doctor_search",
-    "prev_find_providers",
-    "prev_searchprovider_form",
-    "active_form_searchprovider_form"
+    "prev_search_providers_form",
+    "active_form_search_providers_form"
   ]
 }
