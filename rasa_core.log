@@ -18380,3 +18380,1719 @@ Traceback (most recent call last):
   File "C:\Users\AC58436\AppData\Local\Programs\Python\Python37\lib\site-packages\engineio\client.py", line 41, in signal_handler
     return original_signal_handler(sig, frame)
 KeyboardInterrupt
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_lg'.
+Available web server routes: 
+static                                             GET, HEAD, OPTIONS             /static/[filename]
+custom_webhook_CmdlineInput.health                 GET, HEAD, OPTIONS             /webhooks/rest/
+custom_webhook_CmdlineInput.receive                POST, OPTIONS                  /webhooks/rest/webhook
+Rasa Core server is up and running on http://localhost:5005
+Creating a new tracker for id 'default'.
+Received user message 'hello' with intent '{'name': 'greet', 'confidence': 0.9503397863827544}' and entities '[]'
+Logged UserUtterance - tracker now has 2 events
+Current slot values: 
+	location: None
+	matches: None
+	requested_slot: None
+	search_type: None
+	speciality: None
+Current tracker state [None, None, None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '7'
+There is no active form
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'utter_greet' with prob 1.00.
+Action 'utter_greet' ended with events '[]'
+Bot utterance 'BotUttered(text: Hi. What are you looking for?, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [None, None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'intent_greet': 1.0, 'prev_utter_greet': 1.0}]
+There is a memorised next action '0'
+There is no active form
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'find a doctor form' with intent '{'name': 'findadoctor', 'confidence': 0.7617393667857165}' and entities '[]'
+Logged UserUtterance - tracker now has 6 events
+Current slot values: 
+	location: None
+	matches: None
+	requested_slot: None
+	search_type: None
+	speciality: None
+Current tracker state [None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'intent_greet': 1.0, 'prev_utter_greet': 1.0}, {'prev_action_listen': 1.0, 'intent_findadoctor': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_1_FallbackPolicy
+Predicted next action 'action_default_fallback' with prob 1.00.
+Action 'action_default_fallback' ended with events '['UserUtteranceReverted()']'
+Bot utterance 'BotUttered(text: Sorry, I didn’t understand that, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [None, None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'intent_greet': 1.0, 'prev_utter_greet': 1.0}]
+There is a memorised next action '0'
+There is no active form
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_lg'.
+Available web server routes: 
+static                                             OPTIONS, HEAD, GET             /static/[filename]
+custom_webhook_CmdlineInput.health                 OPTIONS, HEAD, GET             /webhooks/rest/
+custom_webhook_CmdlineInput.receive                OPTIONS, POST                  /webhooks/rest/webhook
+Rasa Core server is up and running on http://localhost:5005
+Creating a new tracker for id 'default'.
+Received user message 'hello' with intent '{'name': 'greet', 'confidence': 0.979915476375658}' and entities '[]'
+Logged UserUtterance - tracker now has 2 events
+Current slot values: 
+	location: None
+	matches: None
+	requested_slot: None
+	search_type: None
+	speciality: None
+Current tracker state [None, None, None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '7'
+There is no active form
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'utter_greet' with prob 1.00.
+Action 'utter_greet' ended with events '[]'
+Bot utterance 'BotUttered(text: Hi. What are you looking for?, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [None, None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'prev_utter_greet': 1.0, 'intent_greet': 1.0}]
+There is a memorised next action '0'
+There is no active form
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'i need a provider' with intent '{'name': 'findadoctor_form', 'confidence': 0.514190843772885}' and entities '[]'
+Logged UserUtterance - tracker now has 6 events
+Current slot values: 
+	location: None
+	matches: None
+	requested_slot: None
+	search_type: None
+	speciality: None
+NLU confidence 0.514190843772885 is lower than NLU threshold 0.75. 
+Current tracker state [None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'prev_utter_greet': 1.0, 'intent_greet': 1.0}, {'prev_action_listen': 1.0, 'intent_findadoctor_form': 1.0}]
+There is a memorised next action '14'
+There is no active form
+Predicted next action using policy_1_FallbackPolicy
+Predicted next action 'action_default_fallback' with prob 1.00.
+Action 'action_default_fallback' ended with events '['UserUtteranceReverted()']'
+Bot utterance 'BotUttered(text: Sorry, I didn’t understand that, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [None, None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'prev_utter_greet': 1.0, 'intent_greet': 1.0}]
+There is a memorised next action '0'
+There is no active form
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_lg'.
+Available web server routes: 
+static                                             OPTIONS, HEAD, GET             /static/[filename]
+custom_webhook_CmdlineInput.health                 OPTIONS, HEAD, GET             /webhooks/rest/
+custom_webhook_CmdlineInput.receive                OPTIONS, POST                  /webhooks/rest/webhook
+Rasa Core server is up and running on http://localhost:5005
+Creating a new tracker for id 'default'.
+Received user message 'hello' with intent '{'name': 'greet', 'confidence': 0.9808670797005683}' and entities '[]'
+Logged UserUtterance - tracker now has 2 events
+Current slot values: 
+	location: None
+	matches: None
+	requested_slot: None
+	search_type: None
+	speciality: None
+Current tracker state [None, None, None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '7'
+There is no active form
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'utter_greet' with prob 1.00.
+Action 'utter_greet' ended with events '[]'
+Bot utterance 'BotUttered(text: Hi. What are you looking for?, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [None, None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'prev_utter_greet': 1.0, 'intent_greet': 1.0}]
+There is a memorised next action '0'
+There is no active form
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'i need a provider' with intent '{'name': 'findadoctor_form', 'confidence': 0.5032616868661033}' and entities '[]'
+Logged UserUtterance - tracker now has 6 events
+Current slot values: 
+	location: None
+	matches: None
+	requested_slot: None
+	search_type: None
+	speciality: None
+Current tracker state [None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'prev_utter_greet': 1.0, 'intent_greet': 1.0}, {'prev_action_listen': 1.0, 'intent_findadoctor_form': 1.0}]
+There is a memorised next action '14'
+There is no active form
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'search_providers_form' with prob 1.00.
+Calling action endpoint to run action 'search_providers_form'.
+Failed to run custom action 'search_providers_form'. Couldn't connect to the server at 'http://localhost:5055/webhook'. Is the server running? Error: HTTPConnectionPool(host='localhost', port=5055): Max retries exceeded with url: /webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E4E8CB6A58>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',))
+Encountered an exception while running action 'search_providers_form'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\site-packages\urllib3\connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\site-packages\urllib3\util\connection.py", line 83, in create_connection
+    raise err
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 357, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\http\client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\http\client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\http\client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\http\client.py", line 1026, in _send_output
+    self.send(msg)
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\http\client.py", line 964, in send
+    self.connect()
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\site-packages\urllib3\connection.py", line 166, in connect
+    conn = self._new_conn()
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\site-packages\urllib3\connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000001E4E8CB6A58>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\site-packages\urllib3\util\retry.py", line 388, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=5055): Max retries exceeded with url: /webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E4E8CB6A58>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\site-packages\rasa_core\actions\action.py", line 331, in run
+    json=json, method="post", timeout=DEFAULT_REQUEST_TIMEOUT)
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\site-packages\rasa_core\utils.py", line 667, in request
+    **kwargs)
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\site-packages\requests\sessions.py", line 524, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\site-packages\requests\sessions.py", line 637, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=5055): Max retries exceeded with url: /webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E4E8CB6A58>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\site-packages\rasa_core\processor.py", line 346, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\site-packages\rasa_core\actions\action.py", line 352, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Action 'search_providers_form' ended with events '[]'
+Current tracker state [{}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'prev_utter_greet': 1.0, 'intent_greet': 1.0}, {'prev_action_listen': 1.0, 'intent_findadoctor_form': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_search_providers_form': 1.0}]
+There is a memorised next action '0'
+There is no active form
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_lg'.
+Available web server routes: 
+static                                             OPTIONS, GET, HEAD             /static/[filename]
+custom_webhook_CmdlineInput.health                 OPTIONS, GET, HEAD             /webhooks/rest/
+custom_webhook_CmdlineInput.receive                OPTIONS, POST                  /webhooks/rest/webhook
+Rasa Core server is up and running on http://localhost:5005
+Creating a new tracker for id 'default'.
+Received user message 'hello' with intent '{'name': 'greet', 'confidence': 0.9808670797005683}' and entities '[]'
+Logged UserUtterance - tracker now has 2 events
+Current slot values: 
+	location: None
+	matches: None
+	requested_slot: None
+	search_type: None
+	speciality: None
+Current tracker state [None, None, None, {}, {'prev_action_listen': 1.0, 'intent_greet': 1.0}]
+There is a memorised next action '7'
+There is no active form
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'utter_greet' with prob 1.00.
+Action 'utter_greet' ended with events '[]'
+Bot utterance 'BotUttered(text: Hi. What are you looking for?, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [None, None, {}, {'prev_action_listen': 1.0, 'intent_greet': 1.0}, {'prev_utter_greet': 1.0, 'intent_greet': 1.0}]
+There is a memorised next action '0'
+There is no active form
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'i need a provider' with intent '{'name': 'findadoctor_form', 'confidence': 0.5032616868661033}' and entities '[]'
+Logged UserUtterance - tracker now has 6 events
+Current slot values: 
+	location: None
+	matches: None
+	requested_slot: None
+	search_type: None
+	speciality: None
+Current tracker state [None, {}, {'prev_action_listen': 1.0, 'intent_greet': 1.0}, {'prev_utter_greet': 1.0, 'intent_greet': 1.0}, {'prev_action_listen': 1.0, 'intent_findadoctor_form': 1.0}]
+There is a memorised next action '14'
+There is no active form
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'search_providers_form' with prob 1.00.
+Calling action endpoint to run action 'search_providers_form'.
+Failed to run custom action 'search_providers_form'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'search_providers_form'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\site-packages\rasa_core\actions\action.py", line 342, in run
+    response.raise_for_status()
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\site-packages\rasa_core\processor.py", line 346, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\site-packages\rasa_core\actions\action.py", line 362, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Action 'search_providers_form' ended with events '[]'
+Current tracker state [{}, {'prev_action_listen': 1.0, 'intent_greet': 1.0}, {'prev_utter_greet': 1.0, 'intent_greet': 1.0}, {'prev_action_listen': 1.0, 'intent_findadoctor_form': 1.0}, {'prev_search_providers_form': 1.0, 'intent_findadoctor_form': 1.0}]
+There is a memorised next action '0'
+There is no active form
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_lg'.
+Available web server routes: 
+static                                             HEAD, GET, OPTIONS             /static/[filename]
+custom_webhook_CmdlineInput.health                 HEAD, GET, OPTIONS             /webhooks/rest/
+custom_webhook_CmdlineInput.receive                POST, OPTIONS                  /webhooks/rest/webhook
+Rasa Core server is up and running on http://localhost:5005
+Creating a new tracker for id 'default'.
+Received user message 'hello' with intent '{'name': 'greet', 'confidence': 0.9783900431894316}' and entities '[]'
+Logged UserUtterance - tracker now has 2 events
+Current slot values: 
+	location: None
+	matches: None
+	requested_slot: None
+	search_type: None
+	speciality: None
+Current tracker state [None, None, None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '7'
+There is no active form
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'utter_greet' with prob 1.00.
+Action 'utter_greet' ended with events '[]'
+Bot utterance 'BotUttered(text: Hi. What are you looking for?, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [None, None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'intent_greet': 1.0, 'prev_utter_greet': 1.0}]
+There is a memorised next action '0'
+There is no active form
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'i need a provider' with intent '{'name': 'findadoctor_form', 'confidence': 0.5358874362062229}' and entities '[]'
+Logged UserUtterance - tracker now has 6 events
+Current slot values: 
+	location: None
+	matches: None
+	requested_slot: None
+	search_type: None
+	speciality: None
+Current tracker state [None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'intent_greet': 1.0, 'prev_utter_greet': 1.0}, {'prev_action_listen': 1.0, 'intent_findadoctor_form': 1.0}]
+There is a memorised next action '0'
+There is no active form
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_lg'.
+Available web server routes: 
+static                                             HEAD, GET, OPTIONS             /static/[filename]
+custom_webhook_CmdlineInput.health                 HEAD, GET, OPTIONS             /webhooks/rest/
+custom_webhook_CmdlineInput.receive                OPTIONS, POST                  /webhooks/rest/webhook
+Rasa Core server is up and running on http://localhost:5005
+Creating a new tracker for id 'default'.
+Received user message 'hello' with intent '{'name': 'greet', 'confidence': 0.9836868944102168}' and entities '[]'
+Logged UserUtterance - tracker now has 2 events
+Current slot values: 
+	location: None
+	matches: None
+	requested_slot: None
+	search_type: None
+	speciality: None
+Current tracker state [None, None, None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '7'
+There is no active form
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'utter_greet' with prob 1.00.
+Action 'utter_greet' ended with events '[]'
+Bot utterance 'BotUttered(text: Hi. What are you looking for?, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [None, None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'intent_greet': 1.0, 'prev_utter_greet': 1.0}]
+There is a memorised next action '0'
+There is no active form
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'i need a provider' with intent '{'name': 'findadoctor_form', 'confidence': 0.5017085577059454}' and entities '[]'
+Logged UserUtterance - tracker now has 6 events
+Current slot values: 
+	location: None
+	matches: None
+	requested_slot: None
+	search_type: None
+	speciality: None
+Current tracker state [None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'intent_greet': 1.0, 'prev_utter_greet': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '14'
+There is no active form
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'search_providers_form' with prob 1.00.
+Calling action endpoint to run action 'search_providers_form'.
+Action 'search_providers_form' ended with events '['Form(search_providers_form)', 'SlotSet(key: requested_slot, value: speciality)']'
+Bot utterance 'BotUttered(text: Provide the speciality, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'intent_greet': 1.0, 'prev_utter_greet': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '14'
+There is an active form 'search_providers_form'
+Predicted next action using policy_3_FormPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'radiologist' with intent '{'name': 'inform', 'confidence': 0.986955227682484}' and entities '[{'start': 0, 'end': 11, 'value': 'radiologist', 'entity': 'speciality', 'confidence': 0.8892404083537327, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 12 events
+Current slot values: 
+	location: None
+	matches: None
+	requested_slot: speciality
+	search_type: None
+	speciality: None
+Current tracker state [None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'intent_greet': 1.0, 'prev_utter_greet': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '14'
+There is an active form 'search_providers_form'
+Predicted next action using policy_3_FormPolicy
+Predicted next action 'search_providers_form' with prob 1.00.
+Calling action endpoint to run action 'search_providers_form'.
+Action 'search_providers_form' ended with events '['SlotSet(key: speciality, value: radiologist)', 'SlotSet(key: requested_slot, value: location)']'
+Bot utterance 'BotUttered(text: Please provide your city name or zip code., data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'intent_greet': 1.0, 'prev_utter_greet': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '14'
+There is an active form 'search_providers_form'
+Predicted next action using policy_3_FormPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'Los Angeles' with intent '{'name': 'inform', 'confidence': 0.9761127965944191}' and entities '[{'start': 0, 'end': 11, 'value': 'los angeles', 'entity': 'location', 'confidence': 0.8763902014108016, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 18 events
+Current slot values: 
+	location: None
+	matches: None
+	requested_slot: location
+	search_type: None
+	speciality: radiologist
+Current tracker state [None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'intent_greet': 1.0, 'prev_utter_greet': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '14'
+There is an active form 'search_providers_form'
+Predicted next action using policy_3_FormPolicy
+Predicted next action 'search_providers_form' with prob 1.00.
+Calling action endpoint to run action 'search_providers_form'.
+Action 'search_providers_form' ended with events '['SlotSet(key: location, value: los angeles)', 'FollowupAction(action: find_providers)', 'Form(None)', 'SlotSet(key: requested_slot, value: None)']'
+Bot utterance 'BotUttered(text: All done!, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Predicted next action 'find_providers' with prob 1.00.
+Calling action endpoint to run action 'find_providers'.
+Action 'find_providers' ended with events '[]'
+Bot utterance 'BotUttered(text: Here is a list of 2 providerss near you, data: {
+  "elements": null,
+  "buttons": [
+    {
+      "payload": "/inform{\"provider_id\":\"154656\"}",
+      "title": "Dr Jhon"
+    },
+    {
+      "payload": "/inform{\"provider_id\":\"2345\"}",
+      "title": "Dr Dileep"
+    }
+  ],
+  "attachment": null
+})'
+Current tracker state [{'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'intent_greet': 1.0, 'prev_utter_greet': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_search_providers_form': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_find_providers': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_1_FallbackPolicy
+Predicted next action 'action_default_fallback' with prob 1.00.
+Action 'action_default_fallback' ended with events '['UserUtteranceReverted()']'
+Bot utterance 'BotUttered(text: Sorry, I didn’t understand that, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'intent_greet': 1.0, 'prev_utter_greet': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '14'
+There is an active form 'search_providers_form'
+Predicted next action using policy_3_FormPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'hello' with intent '{'name': 'greet', 'confidence': 0.9836868944102168}' and entities '[]'
+Logged UserUtterance - tracker now has 31 events
+Current slot values: 
+	location: None
+	matches: None
+	requested_slot: location
+	search_type: None
+	speciality: radiologist
+Current tracker state [None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'intent_greet': 1.0, 'prev_utter_greet': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '14'
+There is an active form 'search_providers_form'
+Predicted next action using policy_3_FormPolicy
+Predicted next action 'search_providers_form' with prob 1.00.
+Calling action endpoint to run action 'search_providers_form'.
+Failed to validate slot location with action search_providers_form
+Current tracker state [{'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'intent_greet': 1.0, 'prev_utter_greet': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}, {'intent_findadoctor_form': 1.0, 'active_form_search_providers_form': 1.0, 'prev_search_providers_form': 1.0}, {'active_form_search_providers_form': 1.0, 'intent_greet': 1.0, 'prev_action_listen': 1.0}]
+There is no memorised next action
+There is an active form 'search_providers_form'
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_greet' with prob 1.00.
+Action 'utter_greet' ended with events '[]'
+Bot utterance 'BotUttered(text: Hi. What are you looking for?, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'intent_greet': 1.0, 'prev_utter_greet': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}, {'intent_findadoctor_form': 1.0, 'active_form_search_providers_form': 1.0, 'prev_search_providers_form': 1.0}, {'active_form_search_providers_form': 1.0, 'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'active_form_search_providers_form': 1.0, 'intent_greet': 1.0, 'prev_utter_greet': 1.0}]
+There is no memorised next action
+There is an active form 'search_providers_form'
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'i need a provider' with intent '{'name': 'findadoctor_form', 'confidence': 0.5017085577059454}' and entities '[]'
+Logged UserUtterance - tracker now has 36 events
+Current slot values: 
+	location: None
+	matches: None
+	requested_slot: location
+	search_type: None
+	speciality: radiologist
+Current tracker state [{'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}, {'intent_findadoctor_form': 1.0, 'active_form_search_providers_form': 1.0, 'prev_search_providers_form': 1.0}, {'active_form_search_providers_form': 1.0, 'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'active_form_search_providers_form': 1.0, 'intent_greet': 1.0, 'prev_utter_greet': 1.0}, {'intent_findadoctor_form': 1.0, 'active_form_search_providers_form': 1.0, 'prev_action_listen': 1.0}]
+There is no memorised next action
+There is an active form 'search_providers_form'
+Predicted next action using policy_3_FormPolicy
+Predicted next action 'search_providers_form' with prob 1.00.
+Calling action endpoint to run action 'search_providers_form'.
+Failed to validate slot location with action search_providers_form
+Current tracker state [{'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}, {'intent_findadoctor_form': 1.0, 'active_form_search_providers_form': 1.0, 'prev_search_providers_form': 1.0}, {'active_form_search_providers_form': 1.0, 'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'active_form_search_providers_form': 1.0, 'intent_greet': 1.0, 'prev_utter_greet': 1.0}, {'intent_findadoctor_form': 1.0, 'active_form_search_providers_form': 1.0, 'prev_action_listen': 1.0}]
+There is no memorised next action
+There is an active form 'search_providers_form'
+Predicted next action using policy_1_FallbackPolicy
+Predicted next action 'action_default_fallback' with prob 1.00.
+Action 'action_default_fallback' ended with events '['UserUtteranceReverted()']'
+Bot utterance 'BotUttered(text: Sorry, I didn’t understand that, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'intent_greet': 1.0, 'prev_utter_greet': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}, {'intent_findadoctor_form': 1.0, 'active_form_search_providers_form': 1.0, 'prev_search_providers_form': 1.0}, {'active_form_search_providers_form': 1.0, 'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'active_form_search_providers_form': 1.0, 'intent_greet': 1.0, 'prev_utter_greet': 1.0}]
+There is no memorised next action
+There is an active form 'search_providers_form'
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'hello' with intent '{'name': 'greet', 'confidence': 0.9836868944102168}' and entities '[]'
+Logged UserUtterance - tracker now has 42 events
+Current slot values: 
+	location: None
+	matches: None
+	requested_slot: location
+	search_type: None
+	speciality: radiologist
+Current tracker state [{'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}, {'intent_findadoctor_form': 1.0, 'active_form_search_providers_form': 1.0, 'prev_search_providers_form': 1.0}, {'active_form_search_providers_form': 1.0, 'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'active_form_search_providers_form': 1.0, 'intent_greet': 1.0, 'prev_utter_greet': 1.0}, {'active_form_search_providers_form': 1.0, 'intent_greet': 1.0, 'prev_action_listen': 1.0}]
+There is no memorised next action
+There is an active form 'search_providers_form'
+Predicted next action using policy_3_FormPolicy
+Predicted next action 'search_providers_form' with prob 1.00.
+Calling action endpoint to run action 'search_providers_form'.
+Failed to run custom action 'search_providers_form'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'search_providers_form'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\site-packages\rasa_core\actions\action.py", line 342, in run
+    response.raise_for_status()
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\site-packages\rasa_core\processor.py", line 346, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\site-packages\rasa_core\actions\action.py", line 362, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Action 'search_providers_form' ended with events '[]'
+Current tracker state [{'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}, {'intent_findadoctor_form': 1.0, 'active_form_search_providers_form': 1.0, 'prev_search_providers_form': 1.0}, {'active_form_search_providers_form': 1.0, 'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'active_form_search_providers_form': 1.0, 'intent_greet': 1.0, 'prev_utter_greet': 1.0}, {'active_form_search_providers_form': 1.0, 'intent_greet': 1.0, 'prev_action_listen': 1.0}]
+There is no memorised next action
+There is an active form 'search_providers_form'
+Predicted next action using policy_3_FormPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'hello' with intent '{'name': 'greet', 'confidence': 0.9836868944102168}' and entities '[]'
+Logged UserUtterance - tracker now has 45 events
+Current slot values: 
+	location: None
+	matches: None
+	requested_slot: location
+	search_type: None
+	speciality: radiologist
+Current tracker state [{'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}, {'intent_findadoctor_form': 1.0, 'active_form_search_providers_form': 1.0, 'prev_search_providers_form': 1.0}, {'active_form_search_providers_form': 1.0, 'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'active_form_search_providers_form': 1.0, 'intent_greet': 1.0, 'prev_utter_greet': 1.0}, {'active_form_search_providers_form': 1.0, 'intent_greet': 1.0, 'prev_action_listen': 1.0}]
+There is no memorised next action
+There is an active form 'search_providers_form'
+Predicted next action using policy_3_FormPolicy
+Predicted next action 'search_providers_form' with prob 1.00.
+Calling action endpoint to run action 'search_providers_form'.
+Failed to run custom action 'search_providers_form'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'search_providers_form'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\site-packages\rasa_core\actions\action.py", line 342, in run
+    response.raise_for_status()
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\site-packages\rasa_core\processor.py", line 346, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\site-packages\rasa_core\actions\action.py", line 362, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Action 'search_providers_form' ended with events '[]'
+Current tracker state [{'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}, {'intent_findadoctor_form': 1.0, 'active_form_search_providers_form': 1.0, 'prev_search_providers_form': 1.0}, {'active_form_search_providers_form': 1.0, 'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'active_form_search_providers_form': 1.0, 'intent_greet': 1.0, 'prev_utter_greet': 1.0}, {'active_form_search_providers_form': 1.0, 'intent_greet': 1.0, 'prev_action_listen': 1.0}]
+There is no memorised next action
+There is an active form 'search_providers_form'
+Predicted next action using policy_3_FormPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'hello' with intent '{'name': 'greet', 'confidence': 0.9836868944102168}' and entities '[]'
+Logged UserUtterance - tracker now has 48 events
+Current slot values: 
+	location: None
+	matches: None
+	requested_slot: location
+	search_type: None
+	speciality: radiologist
+Current tracker state [{'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}, {'intent_findadoctor_form': 1.0, 'active_form_search_providers_form': 1.0, 'prev_search_providers_form': 1.0}, {'active_form_search_providers_form': 1.0, 'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'active_form_search_providers_form': 1.0, 'intent_greet': 1.0, 'prev_utter_greet': 1.0}, {'active_form_search_providers_form': 1.0, 'intent_greet': 1.0, 'prev_action_listen': 1.0}]
+There is no memorised next action
+There is an active form 'search_providers_form'
+Predicted next action using policy_3_FormPolicy
+Predicted next action 'search_providers_form' with prob 1.00.
+Calling action endpoint to run action 'search_providers_form'.
+Failed to run custom action 'search_providers_form'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'search_providers_form'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\site-packages\rasa_core\actions\action.py", line 342, in run
+    response.raise_for_status()
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\site-packages\rasa_core\processor.py", line 346, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\site-packages\rasa_core\actions\action.py", line 362, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Action 'search_providers_form' ended with events '[]'
+Current tracker state [{'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}, {'intent_findadoctor_form': 1.0, 'active_form_search_providers_form': 1.0, 'prev_search_providers_form': 1.0}, {'active_form_search_providers_form': 1.0, 'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'active_form_search_providers_form': 1.0, 'intent_greet': 1.0, 'prev_utter_greet': 1.0}, {'active_form_search_providers_form': 1.0, 'intent_greet': 1.0, 'prev_action_listen': 1.0}]
+There is no memorised next action
+There is an active form 'search_providers_form'
+Predicted next action using policy_3_FormPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_lg'.
+Available web server routes: 
+static                                             GET, OPTIONS, HEAD             /static/[filename]
+custom_webhook_CmdlineInput.health                 GET, OPTIONS, HEAD             /webhooks/rest/
+custom_webhook_CmdlineInput.receive                OPTIONS, POST                  /webhooks/rest/webhook
+Rasa Core server is up and running on http://localhost:5005
+Creating a new tracker for id 'default'.
+Received user message '' with intent '{'name': None, 'confidence': 0.0}' and entities '[]'
+Logged UserUtterance - tracker now has 2 events
+Current slot values: 
+	location: None
+	matches: None
+	requested_slot: None
+	search_type: None
+	speciality: None
+NLU confidence 0.0 is lower than NLU threshold 0.5. 
+Current tracker state [None, None, None, {}, {'prev_action_listen': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_1_FallbackPolicy
+Predicted next action 'action_default_fallback' with prob 1.00.
+Action 'action_default_fallback' ended with events '['UserUtteranceReverted()']'
+Bot utterance 'BotUttered(text: Sorry, I didn’t understand that, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'hello' with intent '{'name': 'greet', 'confidence': 0.9773762762415101}' and entities '[]'
+Logged UserUtterance - tracker now has 7 events
+Current slot values: 
+	location: None
+	matches: None
+	requested_slot: None
+	search_type: None
+	speciality: None
+Current tracker state [None, None, None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '7'
+There is no active form
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'utter_greet' with prob 1.00.
+Action 'utter_greet' ended with events '[]'
+Bot utterance 'BotUttered(text: Hi. What are you looking for?, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [None, None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'intent_greet': 1.0, 'prev_utter_greet': 1.0}]
+There is a memorised next action '0'
+There is no active form
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'i need a provider' with intent '{'name': 'findadoctor_form', 'confidence': 0.5299005947356108}' and entities '[]'
+Logged UserUtterance - tracker now has 11 events
+Current slot values: 
+	location: None
+	matches: None
+	requested_slot: None
+	search_type: None
+	speciality: None
+Current tracker state [None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'intent_greet': 1.0, 'prev_utter_greet': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '14'
+There is no active form
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'search_providers_form' with prob 1.00.
+Calling action endpoint to run action 'search_providers_form'.
+Failed to run custom action 'search_providers_form'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'search_providers_form'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\site-packages\rasa_core\actions\action.py", line 342, in run
+    response.raise_for_status()
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\site-packages\rasa_core\processor.py", line 346, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\site-packages\rasa_core\actions\action.py", line 362, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Action 'search_providers_form' ended with events '[]'
+Current tracker state [{}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'intent_greet': 1.0, 'prev_utter_greet': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}, {'prev_search_providers_form': 1.0, 'intent_findadoctor_form': 1.0}]
+There is a memorised next action '0'
+There is no active form
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_lg'.
+Available web server routes: 
+static                                             GET, HEAD, OPTIONS             /static/[filename]
+custom_webhook_CmdlineInput.health                 GET, HEAD, OPTIONS             /webhooks/rest/
+custom_webhook_CmdlineInput.receive                POST, OPTIONS                  /webhooks/rest/webhook
+Rasa Core server is up and running on http://localhost:5005
+Creating a new tracker for id 'default'.
+Received user message 'hello' with intent '{'name': 'greet', 'confidence': 0.9725547203247455}' and entities '[]'
+Logged UserUtterance - tracker now has 2 events
+Current slot values: 
+	location: None
+	matches: None
+	requested_slot: None
+	search_type: None
+	speciality: None
+Current tracker state [None, None, None, {}, {'prev_action_listen': 1.0, 'intent_greet': 1.0}]
+There is a memorised next action '7'
+There is no active form
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'utter_greet' with prob 1.00.
+Action 'utter_greet' ended with events '[]'
+Bot utterance 'BotUttered(text: Hi. What are you looking for?, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [None, None, {}, {'prev_action_listen': 1.0, 'intent_greet': 1.0}, {'prev_utter_greet': 1.0, 'intent_greet': 1.0}]
+There is a memorised next action '0'
+There is no active form
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'I need a provider' with intent '{'name': 'findadoctor_form', 'confidence': 0.5791218117555659}' and entities '[]'
+Logged UserUtterance - tracker now has 6 events
+Current slot values: 
+	location: None
+	matches: None
+	requested_slot: None
+	search_type: None
+	speciality: None
+Current tracker state [None, {}, {'prev_action_listen': 1.0, 'intent_greet': 1.0}, {'prev_utter_greet': 1.0, 'intent_greet': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '14'
+There is no active form
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'search_providers_form' with prob 1.00.
+Calling action endpoint to run action 'search_providers_form'.
+Action 'search_providers_form' ended with events '['Form(search_providers_form)', 'SlotSet(key: requested_slot, value: speciality)']'
+Bot utterance 'BotUttered(text: Please mention the speciality, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [None, {}, {'prev_action_listen': 1.0, 'intent_greet': 1.0}, {'prev_utter_greet': 1.0, 'intent_greet': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '14'
+There is an active form 'search_providers_form'
+Predicted next action using policy_3_FormPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'radiology' with intent '{'name': 'inform', 'confidence': 0.9918218291222259}' and entities '[{'start': 0, 'end': 9, 'value': 'radiology', 'entity': 'speciality', 'confidence': 0.9464286037290153, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 12 events
+Current slot values: 
+	location: None
+	matches: None
+	requested_slot: speciality
+	search_type: None
+	speciality: None
+Current tracker state [None, {}, {'prev_action_listen': 1.0, 'intent_greet': 1.0}, {'prev_utter_greet': 1.0, 'intent_greet': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '14'
+There is an active form 'search_providers_form'
+Predicted next action using policy_3_FormPolicy
+Predicted next action 'search_providers_form' with prob 1.00.
+Calling action endpoint to run action 'search_providers_form'.
+Action 'search_providers_form' ended with events '['SlotSet(key: speciality, value: radiology)', 'SlotSet(key: requested_slot, value: location)']'
+Bot utterance 'BotUttered(text: Please provide your city name or zip code., data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [None, {}, {'prev_action_listen': 1.0, 'intent_greet': 1.0}, {'prev_utter_greet': 1.0, 'intent_greet': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '14'
+There is an active form 'search_providers_form'
+Predicted next action using policy_3_FormPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'Los Angeles' with intent '{'name': 'inform', 'confidence': 0.9779850462760231}' and entities '[{'start': 0, 'end': 11, 'value': 'los angeles', 'entity': 'location', 'confidence': 0.8763902014108016, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 18 events
+Current slot values: 
+	location: None
+	matches: None
+	requested_slot: location
+	search_type: None
+	speciality: radiology
+Current tracker state [None, {}, {'prev_action_listen': 1.0, 'intent_greet': 1.0}, {'prev_utter_greet': 1.0, 'intent_greet': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '14'
+There is an active form 'search_providers_form'
+Predicted next action using policy_3_FormPolicy
+Predicted next action 'search_providers_form' with prob 1.00.
+Calling action endpoint to run action 'search_providers_form'.
+Action 'search_providers_form' ended with events '['SlotSet(key: location, value: los angeles)', 'Form(None)', 'SlotSet(key: requested_slot, value: None)']'
+Bot utterance 'BotUttered(text: All done!, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{}, {'prev_action_listen': 1.0, 'intent_greet': 1.0}, {'prev_utter_greet': 1.0, 'intent_greet': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_search_providers_form': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'hi' with intent '{'name': 'greet', 'confidence': 0.9682491707730295}' and entities '[]'
+Logged UserUtterance - tracker now has 25 events
+Current slot values: 
+	location: los angeles
+	matches: None
+	requested_slot: None
+	search_type: None
+	speciality: radiology
+Current tracker state [{'prev_action_listen': 1.0, 'intent_greet': 1.0}, {'prev_utter_greet': 1.0, 'intent_greet': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_search_providers_form': 1.0}, {'prev_action_listen': 1.0, 'intent_greet': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_greet' with prob 1.00.
+Action 'utter_greet' ended with events '[]'
+Bot utterance 'BotUttered(text: Hi. What are you looking for?, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'prev_utter_greet': 1.0, 'intent_greet': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_search_providers_form': 1.0}, {'prev_action_listen': 1.0, 'intent_greet': 1.0}, {'prev_utter_greet': 1.0, 'intent_greet': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'i need a provider' with intent '{'name': 'findadoctor_form', 'confidence': 0.5791218117555659}' and entities '[]'
+Logged UserUtterance - tracker now has 29 events
+Current slot values: 
+	location: los angeles
+	matches: None
+	requested_slot: None
+	search_type: None
+	speciality: radiology
+Current tracker state [{'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_search_providers_form': 1.0}, {'prev_action_listen': 1.0, 'intent_greet': 1.0}, {'prev_utter_greet': 1.0, 'intent_greet': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'search_providers_form' with prob 1.00.
+Calling action endpoint to run action 'search_providers_form'.
+Action 'search_providers_form' ended with events '['Form(search_providers_form)', 'Form(None)', 'SlotSet(key: requested_slot, value: None)']'
+Bot utterance 'BotUttered(text: All done!, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'intent_findadoctor_form': 1.0, 'prev_search_providers_form': 1.0}, {'prev_action_listen': 1.0, 'intent_greet': 1.0}, {'prev_utter_greet': 1.0, 'intent_greet': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_search_providers_form': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_lg'.
+Available web server routes: 
+static                                             HEAD, OPTIONS, GET             /static/[filename]
+custom_webhook_CmdlineInput.health                 HEAD, OPTIONS, GET             /webhooks/rest/
+custom_webhook_CmdlineInput.receive                POST, OPTIONS                  /webhooks/rest/webhook
+Rasa Core server is up and running on http://localhost:5005
+Creating a new tracker for id 'default'.
+Received user message 'hello' with intent '{'name': 'greet', 'confidence': 0.9792535269503885}' and entities '[]'
+Logged UserUtterance - tracker now has 2 events
+Current slot values: 
+	location: None
+	matches: None
+	requested_slot: None
+	search_type: None
+	speciality: None
+Current tracker state [None, None, None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '7'
+There is no active form
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'utter_greet' with prob 1.00.
+Action 'utter_greet' ended with events '[]'
+Bot utterance 'BotUttered(text: Hi. What are you looking for?, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [None, None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'prev_utter_greet': 1.0, 'intent_greet': 1.0}]
+There is a memorised next action '0'
+There is no active form
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'i need a provider' with intent '{'name': 'findadoctor_form', 'confidence': 0.5047288724449476}' and entities '[]'
+Logged UserUtterance - tracker now has 6 events
+Current slot values: 
+	location: None
+	matches: None
+	requested_slot: None
+	search_type: None
+	speciality: None
+Current tracker state [None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'prev_utter_greet': 1.0, 'intent_greet': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '14'
+There is no active form
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'search_providers_form' with prob 1.00.
+Calling action endpoint to run action 'search_providers_form'.
+Action 'search_providers_form' ended with events '['Form(search_providers_form)', 'SlotSet(key: requested_slot, value: speciality)']'
+Bot utterance 'BotUttered(text: Please provide speciality which you are looking for., data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'prev_utter_greet': 1.0, 'intent_greet': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '14'
+There is an active form 'search_providers_form'
+Predicted next action using policy_3_FormPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'radiology' with intent '{'name': 'inform', 'confidence': 0.9711738997674098}' and entities '[{'start': 0, 'end': 9, 'value': 'radiology', 'entity': 'speciality', 'confidence': 0.9464286037290153, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 12 events
+Current slot values: 
+	location: None
+	matches: None
+	requested_slot: speciality
+	search_type: None
+	speciality: None
+Current tracker state [None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'prev_utter_greet': 1.0, 'intent_greet': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '14'
+There is an active form 'search_providers_form'
+Predicted next action using policy_3_FormPolicy
+Predicted next action 'search_providers_form' with prob 1.00.
+Calling action endpoint to run action 'search_providers_form'.
+Action 'search_providers_form' ended with events '['SlotSet(key: speciality, value: radiology)', 'SlotSet(key: requested_slot, value: location)']'
+Bot utterance 'BotUttered(text: Please provide your city name., data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'prev_utter_greet': 1.0, 'intent_greet': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '14'
+There is an active form 'search_providers_form'
+Predicted next action using policy_3_FormPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'Los Angeles' with intent '{'name': 'inform', 'confidence': 0.9718310972395988}' and entities '[{'start': 0, 'end': 11, 'value': 'los angeles', 'entity': 'location', 'confidence': 0.8763902014108016, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 18 events
+Current slot values: 
+	location: None
+	matches: None
+	requested_slot: location
+	search_type: None
+	speciality: radiology
+Current tracker state [None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'prev_utter_greet': 1.0, 'intent_greet': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '14'
+There is an active form 'search_providers_form'
+Predicted next action using policy_3_FormPolicy
+Predicted next action 'search_providers_form' with prob 1.00.
+Calling action endpoint to run action 'search_providers_form'.
+Action 'search_providers_form' ended with events '['SlotSet(key: location, value: los angeles)', 'Form(None)', 'SlotSet(key: requested_slot, value: None)']'
+Bot utterance 'BotUttered(text: All done!, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'prev_utter_greet': 1.0, 'intent_greet': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_search_providers_form': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_restart' with prob 1.00.
+Action 'action_restart' ended with events '['Restarted()']'
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'hi' with intent '{'name': 'greet', 'confidence': 0.9719125535302475}' and entities '[]'
+Logged UserUtterance - tracker now has 27 events
+Current slot values: 
+	location: None
+	matches: None
+	requested_slot: None
+	search_type: None
+	speciality: None
+Current tracker state [None, None, None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '7'
+There is no active form
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'utter_greet' with prob 1.00.
+Action 'utter_greet' ended with events '[]'
+Bot utterance 'BotUttered(text: Hi. What are you looking for?, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [None, None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'prev_utter_greet': 1.0, 'intent_greet': 1.0}]
+There is a memorised next action '0'
+There is no active form
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'i need a provider' with intent '{'name': 'findadoctor_form', 'confidence': 0.5047288724449476}' and entities '[]'
+Logged UserUtterance - tracker now has 31 events
+Current slot values: 
+	location: None
+	matches: None
+	requested_slot: None
+	search_type: None
+	speciality: None
+Current tracker state [None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'prev_utter_greet': 1.0, 'intent_greet': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '14'
+There is no active form
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'search_providers_form' with prob 1.00.
+Calling action endpoint to run action 'search_providers_form'.
+Action 'search_providers_form' ended with events '['Form(search_providers_form)', 'SlotSet(key: requested_slot, value: speciality)']'
+Bot utterance 'BotUttered(text: Provide the speciality, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'prev_utter_greet': 1.0, 'intent_greet': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '14'
+There is an active form 'search_providers_form'
+Predicted next action using policy_3_FormPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'radiology' with intent '{'name': 'inform', 'confidence': 0.9711738997674098}' and entities '[{'start': 0, 'end': 9, 'value': 'radiology', 'entity': 'speciality', 'confidence': 0.9464286037290153, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 37 events
+Current slot values: 
+	location: None
+	matches: None
+	requested_slot: speciality
+	search_type: None
+	speciality: None
+Current tracker state [None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'prev_utter_greet': 1.0, 'intent_greet': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '14'
+There is an active form 'search_providers_form'
+Predicted next action using policy_3_FormPolicy
+Predicted next action 'search_providers_form' with prob 1.00.
+Calling action endpoint to run action 'search_providers_form'.
+Action 'search_providers_form' ended with events '['SlotSet(key: speciality, value: radiology)', 'SlotSet(key: requested_slot, value: location)']'
+Bot utterance 'BotUttered(text: What is you current city?, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'prev_utter_greet': 1.0, 'intent_greet': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '14'
+There is an active form 'search_providers_form'
+Predicted next action using policy_3_FormPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'Richmond' with intent '{'name': 'inform', 'confidence': 0.9938177747078448}' and entities '[{'start': 0, 'end': 8, 'value': 'richmond', 'entity': 'location', 'confidence': 0.8657690654627083, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 43 events
+Current slot values: 
+	location: None
+	matches: None
+	requested_slot: location
+	search_type: None
+	speciality: radiology
+Current tracker state [None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'prev_utter_greet': 1.0, 'intent_greet': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '14'
+There is an active form 'search_providers_form'
+Predicted next action using policy_3_FormPolicy
+Predicted next action 'search_providers_form' with prob 1.00.
+Calling action endpoint to run action 'search_providers_form'.
+Action 'search_providers_form' ended with events '['SlotSet(key: location, value: richmond)', 'Form(None)', 'SlotSet(key: requested_slot, value: None)']'
+Bot utterance 'BotUttered(text: All done!, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'prev_utter_greet': 1.0, 'intent_greet': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_search_providers_form': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_restart' with prob 1.00.
+Action 'action_restart' ended with events '['Restarted()']'
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'hello' with intent '{'name': 'greet', 'confidence': 0.9792535269503885}' and entities '[]'
+Logged UserUtterance - tracker now has 52 events
+Current slot values: 
+	location: None
+	matches: None
+	requested_slot: None
+	search_type: None
+	speciality: None
+Current tracker state [None, None, None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '7'
+There is no active form
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'utter_greet' with prob 1.00.
+Action 'utter_greet' ended with events '[]'
+Bot utterance 'BotUttered(text: Hi. What are you looking for?, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [None, None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'prev_utter_greet': 1.0, 'intent_greet': 1.0}]
+There is a memorised next action '0'
+There is no active form
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'i need providers' with intent '{'name': 'findadoctor_form', 'confidence': 0.5184292377946468}' and entities '[]'
+Logged UserUtterance - tracker now has 56 events
+Current slot values: 
+	location: None
+	matches: None
+	requested_slot: None
+	search_type: None
+	speciality: None
+Current tracker state [None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'prev_utter_greet': 1.0, 'intent_greet': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '14'
+There is no active form
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'search_providers_form' with prob 1.00.
+Calling action endpoint to run action 'search_providers_form'.
+Action 'search_providers_form' ended with events '['Form(search_providers_form)', 'SlotSet(key: requested_slot, value: speciality)']'
+Bot utterance 'BotUttered(text: Please provide speciality which you are looking for., data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'prev_utter_greet': 1.0, 'intent_greet': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '14'
+There is an active form 'search_providers_form'
+Predicted next action using policy_3_FormPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'radiology' with intent '{'name': 'inform', 'confidence': 0.9711738997674098}' and entities '[{'start': 0, 'end': 9, 'value': 'radiology', 'entity': 'speciality', 'confidence': 0.9464286037290153, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 62 events
+Current slot values: 
+	location: None
+	matches: None
+	requested_slot: speciality
+	search_type: None
+	speciality: None
+Current tracker state [None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'prev_utter_greet': 1.0, 'intent_greet': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '14'
+There is an active form 'search_providers_form'
+Predicted next action using policy_3_FormPolicy
+Predicted next action 'search_providers_form' with prob 1.00.
+Calling action endpoint to run action 'search_providers_form'.
+Action 'search_providers_form' ended with events '['SlotSet(key: speciality, value: radiology)', 'SlotSet(key: requested_slot, value: location)']'
+Bot utterance 'BotUttered(text: Please provide your city name or zip code., data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'prev_utter_greet': 1.0, 'intent_greet': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '14'
+There is an active form 'search_providers_form'
+Predicted next action using policy_3_FormPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'Los Angeles' with intent '{'name': 'inform', 'confidence': 0.9718310972395988}' and entities '[{'start': 0, 'end': 11, 'value': 'los angeles', 'entity': 'location', 'confidence': 0.8763902014108016, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 68 events
+Current slot values: 
+	location: None
+	matches: None
+	requested_slot: location
+	search_type: None
+	speciality: radiology
+Current tracker state [None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'prev_utter_greet': 1.0, 'intent_greet': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '14'
+There is an active form 'search_providers_form'
+Predicted next action using policy_3_FormPolicy
+Predicted next action 'search_providers_form' with prob 1.00.
+Calling action endpoint to run action 'search_providers_form'.
+Action 'search_providers_form' ended with events '['SlotSet(key: location, value: los angeles)', 'FollowupAction(action: find_providers)', 'Form(None)', 'SlotSet(key: requested_slot, value: None)']'
+Bot utterance 'BotUttered(text: All done!, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Predicted next action 'find_providers' with prob 1.00.
+Calling action endpoint to run action 'find_providers'.
+Action 'find_providers' ended with events '[]'
+Bot utterance 'BotUttered(text: Here is a list of 2 providers near you, data: {
+  "elements": null,
+  "buttons": [
+    {
+      "payload": "/inform{\"provider_id\":\"154656\"}",
+      "title": "Dr Jhon"
+    },
+    {
+      "payload": "/inform{\"provider_id\":\"2345\"}",
+      "title": "Dr Dileep"
+    }
+  ],
+  "attachment": null
+})'
+Current tracker state [{'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'prev_utter_greet': 1.0, 'intent_greet': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_search_providers_form': 1.0}, {'prev_find_providers': 1.0, 'intent_findadoctor_form': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_lg'.
+Available web server routes: 
+static                                             GET, OPTIONS, HEAD             /static/[filename]
+custom_webhook_CmdlineInput.health                 GET, OPTIONS, HEAD             /webhooks/rest/
+custom_webhook_CmdlineInput.receive                POST, OPTIONS                  /webhooks/rest/webhook
+Rasa Core server is up and running on http://localhost:5005
+Creating a new tracker for id 'default'.
+Received user message 'hello' with intent '{'name': 'greet', 'confidence': 0.9877977971388079}' and entities '[]'
+Logged UserUtterance - tracker now has 2 events
+Current slot values: 
+	location: None
+	matches: None
+	requested_slot: None
+	search_type: None
+	speciality: None
+Current tracker state [None, None, None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '7'
+There is no active form
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'utter_greet' with prob 1.00.
+Action 'utter_greet' ended with events '[]'
+Bot utterance 'BotUttered(text: Hi. What are you looking for?, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [None, None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'intent_greet': 1.0, 'prev_utter_greet': 1.0}]
+There is a memorised next action '0'
+There is no active form
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'i need a provider' with intent '{'name': 'findadoctor_form', 'confidence': 0.5556445979311722}' and entities '[]'
+Logged UserUtterance - tracker now has 6 events
+Current slot values: 
+	location: None
+	matches: None
+	requested_slot: None
+	search_type: None
+	speciality: None
+Current tracker state [None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'intent_greet': 1.0, 'prev_utter_greet': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '13'
+There is no active form
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'search_providers_form' with prob 1.00.
+Calling action endpoint to run action 'search_providers_form'.
+Failed to run custom action 'search_providers_form'. Couldn't connect to the server at 'http://localhost:5055/webhook'. Is the server running? Error: HTTPConnectionPool(host='localhost', port=5055): Max retries exceeded with url: /webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000029A7CEFE198>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',))
+Encountered an exception while running action 'search_providers_form'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\site-packages\urllib3\connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\site-packages\urllib3\util\connection.py", line 83, in create_connection
+    raise err
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 357, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\http\client.py", line 1239, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\http\client.py", line 1285, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\http\client.py", line 1234, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\http\client.py", line 1026, in _send_output
+    self.send(msg)
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\http\client.py", line 964, in send
+    self.connect()
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\site-packages\urllib3\connection.py", line 166, in connect
+    conn = self._new_conn()
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\site-packages\urllib3\connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000029A7CEFE198>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\site-packages\urllib3\connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\site-packages\urllib3\util\retry.py", line 388, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=5055): Max retries exceeded with url: /webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000029A7CEFE198>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\site-packages\rasa_core\actions\action.py", line 331, in run
+    json=json, method="post", timeout=DEFAULT_REQUEST_TIMEOUT)
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\site-packages\rasa_core\utils.py", line 667, in request
+    **kwargs)
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\site-packages\requests\sessions.py", line 524, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\site-packages\requests\sessions.py", line 637, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=5055): Max retries exceeded with url: /webhook (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000029A7CEFE198>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\site-packages\rasa_core\processor.py", line 346, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "C:\Users\AF94985\AppData\Local\Continuum\anaconda3\lib\site-packages\rasa_core\actions\action.py", line 352, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Action 'search_providers_form' ended with events '[]'
+Current tracker state [{}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'intent_greet': 1.0, 'prev_utter_greet': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_search_providers_form': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_restart' with prob 0.99.
+Action 'action_restart' ended with events '['Restarted()']'
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'find a doctor' with intent '{'name': 'findadoctor_form', 'confidence': 0.9433412639022913}' and entities '[]'
+Logged UserUtterance - tracker now has 11 events
+Current slot values: 
+	location: None
+	matches: None
+	requested_slot: None
+	search_type: None
+	speciality: None
+Current tracker state [None, None, None, {}, {'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_1_FallbackPolicy
+Predicted next action 'action_default_fallback' with prob 1.00.
+Action 'action_default_fallback' ended with events '['UserUtteranceReverted()']'
+Bot utterance 'BotUttered(text: Sorry, I didn’t understand that, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'hello' with intent '{'name': 'greet', 'confidence': 0.9877977971388079}' and entities '[]'
+Logged UserUtterance - tracker now has 16 events
+Current slot values: 
+	location: None
+	matches: None
+	requested_slot: None
+	search_type: None
+	speciality: None
+Current tracker state [None, None, None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '7'
+There is no active form
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'utter_greet' with prob 1.00.
+Action 'utter_greet' ended with events '[]'
+Bot utterance 'BotUttered(text: Hi. What are you looking for?, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [None, None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'intent_greet': 1.0, 'prev_utter_greet': 1.0}]
+There is a memorised next action '0'
+There is no active form
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'find a doctor' with intent '{'name': 'findadoctor_form', 'confidence': 0.9433412639022913}' and entities '[]'
+Logged UserUtterance - tracker now has 20 events
+Current slot values: 
+	location: None
+	matches: None
+	requested_slot: None
+	search_type: None
+	speciality: None
+Current tracker state [None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'intent_greet': 1.0, 'prev_utter_greet': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '13'
+There is no active form
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'search_providers_form' with prob 1.00.
+Calling action endpoint to run action 'search_providers_form'.
+Action 'search_providers_form' ended with events '['Form(search_providers_form)', 'SlotSet(key: requested_slot, value: speciality)']'
+Bot utterance 'BotUttered(text: Provide the speciality, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'intent_greet': 1.0, 'prev_utter_greet': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '13'
+There is an active form 'search_providers_form'
+Predicted next action using policy_3_FormPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'radiology' with intent '{'name': 'inform', 'confidence': 0.9911354516802395}' and entities '[{'start': 0, 'end': 9, 'value': 'radiology', 'entity': 'speciality', 'confidence': 0.9475161533309598, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 26 events
+Current slot values: 
+	location: None
+	matches: None
+	requested_slot: speciality
+	search_type: None
+	speciality: None
+Current tracker state [None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'intent_greet': 1.0, 'prev_utter_greet': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '13'
+There is an active form 'search_providers_form'
+Predicted next action using policy_3_FormPolicy
+Predicted next action 'search_providers_form' with prob 1.00.
+Calling action endpoint to run action 'search_providers_form'.
+Action 'search_providers_form' ended with events '['SlotSet(key: speciality, value: radiology)', 'SlotSet(key: requested_slot, value: location)']'
+Bot utterance 'BotUttered(text: Please provide your city name., data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'intent_greet': 1.0, 'prev_utter_greet': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '13'
+There is an active form 'search_providers_form'
+Predicted next action using policy_3_FormPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'Los Angeles' with intent '{'name': 'inform', 'confidence': 0.9835802599524867}' and entities '[{'start': 0, 'end': 11, 'value': 'los angeles', 'entity': 'location', 'confidence': 0.8753419829368019, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 32 events
+Current slot values: 
+	location: None
+	matches: None
+	requested_slot: location
+	search_type: None
+	speciality: radiology
+Current tracker state [None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'intent_greet': 1.0, 'prev_utter_greet': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '13'
+There is an active form 'search_providers_form'
+Predicted next action using policy_3_FormPolicy
+Predicted next action 'search_providers_form' with prob 1.00.
+Calling action endpoint to run action 'search_providers_form'.
+Action 'search_providers_form' ended with events '['SlotSet(key: location, value: los angeles)', 'Form(None)', 'SlotSet(key: requested_slot, value: None)']'
+Bot utterance 'BotUttered(text: Here is a list of 2 providers near you, data: {
+  "elements": null,
+  "buttons": [
+    {
+      "payload": "/inform{\"provider_id\":\"154656\"}",
+      "title": "Dr Jhon"
+    },
+    {
+      "payload": "/inform{\"provider_id\":\"2345\"}",
+      "title": "Dr Dileep"
+    }
+  ],
+  "attachment": null
+})'
+Bot utterance 'BotUttered(text: All done!, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'intent_greet': 1.0, 'prev_utter_greet': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_search_providers_form': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_restart' with prob 0.99.
+Action 'action_restart' ended with events '['Restarted()']'
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_lg'.
+Available web server routes: 
+static                                             OPTIONS, HEAD, GET             /static/[filename]
+custom_webhook_CmdlineInput.health                 OPTIONS, HEAD, GET             /webhooks/rest/
+custom_webhook_CmdlineInput.receive                OPTIONS, POST                  /webhooks/rest/webhook
+Rasa Core server is up and running on http://localhost:5005
+Creating a new tracker for id 'default'.
+Received user message 'hello' with intent '{'name': 'greet', 'confidence': 0.9877977971388079}' and entities '[]'
+Logged UserUtterance - tracker now has 2 events
+Current slot values: 
+	location: None
+	matches: None
+	requested_slot: None
+	search_type: None
+	speciality: None
+Current tracker state [None, None, None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '7'
+There is no active form
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'utter_greet' with prob 1.00.
+Action 'utter_greet' ended with events '[]'
+Bot utterance 'BotUttered(text: Hi. What are you looking for?, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [None, None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'intent_greet': 1.0, 'prev_utter_greet': 1.0}]
+There is a memorised next action '0'
+There is no active form
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'i need a doctor' with intent '{'name': 'findadoctor_form', 'confidence': 0.6961741319258621}' and entities '[]'
+Logged UserUtterance - tracker now has 6 events
+Current slot values: 
+	location: None
+	matches: None
+	requested_slot: None
+	search_type: None
+	speciality: None
+Current tracker state [None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'intent_greet': 1.0, 'prev_utter_greet': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '13'
+There is no active form
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'search_providers_form' with prob 1.00.
+Calling action endpoint to run action 'search_providers_form'.
+Action 'search_providers_form' ended with events '['Form(search_providers_form)', 'SlotSet(key: requested_slot, value: speciality)']'
+Bot utterance 'BotUttered(text: Please mention the speciality, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'intent_greet': 1.0, 'prev_utter_greet': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '13'
+There is an active form 'search_providers_form'
+Predicted next action using policy_3_FormPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'radiology' with intent '{'name': 'inform', 'confidence': 0.9911354516802395}' and entities '[{'start': 0, 'end': 9, 'value': 'radiology', 'entity': 'speciality', 'confidence': 0.9475161533309598, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 12 events
+Current slot values: 
+	location: None
+	matches: None
+	requested_slot: speciality
+	search_type: None
+	speciality: None
+Current tracker state [None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'intent_greet': 1.0, 'prev_utter_greet': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '13'
+There is an active form 'search_providers_form'
+Predicted next action using policy_3_FormPolicy
+Predicted next action 'search_providers_form' with prob 1.00.
+Calling action endpoint to run action 'search_providers_form'.
+Action 'search_providers_form' ended with events '['SlotSet(key: speciality, value: radiology)', 'SlotSet(key: requested_slot, value: location)']'
+Bot utterance 'BotUttered(text: Please enter your zip code or city name to find local providers., data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'intent_greet': 1.0, 'prev_utter_greet': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '13'
+There is an active form 'search_providers_form'
+Predicted next action using policy_3_FormPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'Los Angeles' with intent '{'name': 'inform', 'confidence': 0.9835802599524867}' and entities '[{'start': 0, 'end': 11, 'value': 'los angeles', 'entity': 'location', 'confidence': 0.8753419829368019, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 18 events
+Current slot values: 
+	location: None
+	matches: None
+	requested_slot: location
+	search_type: None
+	speciality: radiology
+Current tracker state [None, {}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'intent_greet': 1.0, 'prev_utter_greet': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '13'
+There is an active form 'search_providers_form'
+Predicted next action using policy_3_FormPolicy
+Predicted next action 'search_providers_form' with prob 1.00.
+Calling action endpoint to run action 'search_providers_form'.
+Action 'search_providers_form' ended with events '['SlotSet(key: location, value: los angeles)', 'Form(None)', 'SlotSet(key: requested_slot, value: None)']'
+Bot utterance 'BotUttered(text: Here is a list of 2 providers near you, data: {
+  "elements": null,
+  "buttons": [
+    {
+      "payload": "/inform{\"provider_id\":\"154656\"}",
+      "title": "Dr Jhon"
+    },
+    {
+      "payload": "/inform{\"provider_id\":\"2345\"}",
+      "title": "Dr Dileep"
+    }
+  ],
+  "attachment": null
+})'
+Bot utterance 'BotUttered(text: All done!, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'intent_greet': 1.0, 'prev_utter_greet': 1.0}, {'intent_findadoctor_form': 1.0, 'prev_action_listen': 1.0}, {'prev_search_providers_form': 1.0, 'intent_findadoctor_form': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_restart' with prob 0.99.
+Action 'action_restart' ended with events '['Restarted()']'
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en_core_web_lg'.
+Available web server routes: 
+static                                             HEAD, OPTIONS, GET             /static/[filename]
+custom_webhook_CmdlineInput.health                 HEAD, OPTIONS, GET             /webhooks/rest/
+custom_webhook_CmdlineInput.receive                POST, OPTIONS                  /webhooks/rest/webhook
+Rasa Core server is up and running on http://localhost:5005

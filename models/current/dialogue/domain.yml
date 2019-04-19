@@ -7,7 +7,6 @@ actions:
 - utter_ask_location
 - utter_ask_speciality
 - utter_ask_doctor_search
-- find_providers
 config:
   store_entities_as_slots: true
 entities:
@@ -15,7 +14,7 @@ entities:
 - location
 - search_type
 forms:
-- searchprovider_form
+- search_providers_form
 intents:
 - greet:
     use_entities: true
@@ -27,27 +26,29 @@ intents:
     use_entities: true
 - affirm:
     use_entities: true
+- findadoctor_form:
+    use_entities: true
 slots:
   location:
     auto_fill: false
     initial_value: null
-    type: rasa.core.slots.UnfeaturizedSlot
+    type: rasa_core.slots.UnfeaturizedSlot
   matches:
     auto_fill: true
     initial_value: null
-    type: rasa.core.slots.TextSlot
+    type: rasa_core.slots.TextSlot
   requested_slot:
     auto_fill: true
     initial_value: null
-    type: rasa.core.slots.UnfeaturizedSlot
+    type: rasa_core.slots.UnfeaturizedSlot
   search_type:
     auto_fill: false
     initial_value: null
-    type: rasa.core.slots.TextSlot
+    type: rasa_core.slots.TextSlot
   speciality:
     auto_fill: false
     initial_value: null
-    type: rasa.core.slots.UnfeaturizedSlot
+    type: rasa_core.slots.UnfeaturizedSlot
 templates:
   utter_ask_doctor_search:
   - text: Are you looking for a doctor?
@@ -68,3 +69,5 @@ templates:
   utter_noworries:
   - text: My pleasure.
   - text: You are welcome!
+  utter_submit:
+  - text: All done!

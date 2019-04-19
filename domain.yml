@@ -24,16 +24,12 @@ slots:
     auto_fill: false
 
 forms:
-- searchprovider_form
+- search_providers_form
 
 actions:
 - utter_greet
 - utter_default
 - utter_noworries
-- utter_ask_location
-- utter_ask_speciality
-- utter_ask_doctor_search
-- find_providers
 
 templates:
   utter_greet:
@@ -55,3 +51,5 @@ templates:
   utter_ask_doctor_search:
   - text: "Are you looking for a doctor?"
   - text: "Do you need any help to find a doctor?"
+  utter_submit:
+  - text: "All done!"
