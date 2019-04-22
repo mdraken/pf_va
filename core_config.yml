@@ -4,7 +4,7 @@ policies:
     max_history: 5
   - name: "FallbackPolicy"
     # min confidence needed to accept an NLU prediction
-    nlu_threshold: 0.50
+    nlu_threshold: 0.75
     # min confidence needed to accept an action prediction from Rasa Core
     core_threshold: 0.75
     # name of the action to be called if the confidence of intent / action

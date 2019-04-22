@@ -33,92 +33,69 @@
 - cool, thanks
 - cool thank you
 
+## lookup:zipcode
+data/lookups/zipcodes.txt
+
+## lookup:state
+data/lookups/states.txt
+
+## lookup:city
+data/lookups/cities.txt
+
+## lookup:speciality
+data/lookups/specialities.txt
+
 ## intent:inform
-- [Sitka](location)
-- [Juneau](location)
-- [Virginia](location)
-- [Cusseta](location)
-- [Chicago](location)
-- [Tucson](location)
-- [Columbus](location)
-- [Valdez](location)
-- [Preston](location)
-- [Huntsville](location)
-- [Boulder](location)
-- [California](location)
-- [Tulsa](location)
-- [Colorado](location)
-- [Goodyear](location)
-- [Albuquerque](location)
-- [Scottsdale](location)
-- [Hibbing](location)
-- [Norman](location)
-- [San](location)
-- [Peoria](location)
-- [New](location)
-- [Corpus](location)
-- [Montgomery](location)
-- [Wichita](location)
-- [Aurora](location)
-- [Denver](location)
-- [Sierra](location)
-- [Georgetown](location)
-- [Birmingham](location)
-- [Fayetteville](location)
-- [Carson](location)
-- [Raleigh](location)
-- [Bakersfield](location)
-- [Mobile](location)
-- [Detroit](location)
-- [Bunnell](location)
-- [Chattanooga](location)
-- [Mesa](location)
-- [Fernley](location)
-- [Marana](location)
-- [Yuma](location)
-- [Little](location)
-- [Athens](location)
-- [Hartsville](location)
-- [Port](location)
-- [Tampa](location)
-- [Fresno](location)
-- [Unalaska](location)
-- [Eloy](location)
-- [Salt](location)
-- [Jackson](location)
-- [Fort](location)
-- [Casa](location)
-- [Charleston](location)
-- [Henderson](location)
-- [Durham](location)
-- [Abilene](location)
-- [Palmdale](location)
-- [Babbitt](location)
-- [Surprise](location)
-- [Cape](location)
-- [Shreveport](location)
-- [Rio](location)
-- [Savannah](location)
-- [Reno](location)
-- [Orlando](location)
-- [North](location)
-- [Tallahassee](location)
-- [Amarillo](location)
-- [St](location)
-- [Knoxville](location)
-- [Sacramento](location)
-- [Clarksville](location)
-- [Los Angeles](location)
-- [New York](location)
-- [Las Vegas](location)
-- [San Diego](location)
-- [San Antonio](location)
-- [El Paso](location)
-- [Kansas location](location)
-- [San Francisco](location)
-- [Santa Barbara](location)
+- nearby [91344](zipcode)
+- near [14525](zipcode)
+- in [91335](zipcode)
+- close to [91001](zipcode)
+- close by [12466](zipcode)
+- around [10710](zipcode)
+- [90081](zipcode)
+- [45081](zipcode)
+- [21045](zipcode)
+- [10580](zipcode)
+- [24130](zipcode)
+- [93581](zipcode)
+- [Virginia](state)
+- in [Arizona](state)
+- [New York](state)
+- [Washington](state)
+- in [Oregon](state)
+- [Alaska](state)
+- [Sitka](city)
+- [Juneau](city)
+- [Cusseta](city)
+- [Chicago](city)
+- [Tucson](city)
+- [Columbus](city)
+- [Valdez](city)
+- [Preston](city)
+- [Huntsville](city)
+- [Boulder](city)
+- [California](state)
+- [Tulsa](city)
+- [Colorado](state)
+- [Goodyear](city)
+- [Albuquerque](city)
+- [Scottsdale](city)
+- [Hibbing](city)
+- [Norman](city)
+- [San](city)
+- [Peoria](city)
+- [New](city)
+- [Corpus](city)
+- [Montgomery](city)
+- [Wichita](city)
+- [Aurora](city)
+- [Denver](city)
+- [Sierra](city)
+- [Kansas](state)
+- [San Francisco](city)
+- [Santa Barbara](city)
 - [orthopedic](speciality)
-- [Physcian](speciality)  in [Richmond] (location)
+- [Physcian](speciality)  in [Richmond](city)
 - [Cardiology](speciality)
 - [Chiropractic](speciality)
 - [Dermatology](speciality)
@@ -128,9 +105,9 @@
 - [General Surgery](speciality)
 - [Hematology](speciality)
 - [Urology](speciality)
-- [Cardiologist](speciality) in [Richmond] (location)
-- [Gastroenterologist](speciality) in [Richmond] (location)
-- [Dermatologist](speciality) in [San Francisco] (location)
+- [Cardiologist](speciality) in [Richmond](city)
+- [Gastroenterologist](speciality) in [Richmond](city)
+- [Dermatologist](speciality) in [San Francisco](city)
 - nearby [Dermatology](speciality)
 - nearby [Gastroenterologist](speciality)
 - nearby [Family Practice](speciality)
@@ -142,24 +119,30 @@
 - [Urologist](speciality)
 - [Surgeon](speciality)
 - [General Surgeon](speciality)
-- [Richmond] (location)
+- [Richmond](city)
 - [Orthopedics - Lower](speciality)
 - [Orthopedics - Upper](speciality)
 - [Radiology](speciality)
 - [Radiologist](speciality)
+- find a doctor in [90014](zipcode)
+- find a doctor in [13748](zipcode)
+- find a doctor in [14021](zipcode)
+- find a doctor in [90081](zipcode)
 
 ## intent:findadoctor
 - find a doctor
-- search a doctor
+- search for a doctor
 - get a doctor
 - need a doctor
-- find a care
-- care in [Richmond] (location)
-- doctor in [Richmond] (location)
-- doctor in [San Francisco] (location)
-- i need a [orthopedic](speciality) doctor in [Richmond] (location)
-- find a  [orthopedic](speciality) doctor in [Las Vegas] (location)
-- i need a [Physcian](speciality) doctor in [Richmond] (location)
+- i need a doctor
+- I need a Doctor
+- find care
+- care in [Richmond](city)
+- doctor in [Richmond](city)
+- doctor in [San Francisco](city)
+- i need a [orthopedic](speciality) doctor in [Richmond](city)
+- find a  [orthopedic](speciality) doctor in [Las Vegas](city)
+- i need a [Physcian](speciality) doctor in [Richmond](city)
 - find a nearby [orthopedic](speciality) doctor
 - find a nearby [Urology](speciality) doctor
 - find a nearby [Neurology](speciality) doctor
@@ -167,9 +150,9 @@
 - find a nearby [Dermatologist](speciality) doctor
 - find a nearby [Cardiologist](speciality) doctor
 - find a nearby [Physcian](speciality) doctor
-- i need a [Dermatologist](speciality) doctor in [San Francisco] (location)
-- i need a [Gastroenterologist](speciality) doctor in [Richmond] (location)
-- i need a [Cardiologist](speciality) doctor in [Richmond] (location)
+- i need a [Dermatologist](speciality) doctor in [San Francisco](city)
+- i need a [Gastroenterologist](speciality) doctor in [Richmond](city)
+- i need a [Cardiologist](speciality) doctor in [Richmond](city)
 - find doctor in [orthopedic](speciality)
 - find doctor in [Urology](speciality)
 - find doctor in [Neurology](speciality)
@@ -226,6 +209,10 @@
 - doctor available [Dermatologist](speciality)
 - doctor available [Cardiologist](speciality)
 - doctor available [Physcian](speciality)
+- find a doctor in [90014](zipcode)
+- find a doctor in [13748](zipcode)
+- find a doctor in [14021](zipcode)
+- find a doctor in [90081](zipcode)
 
 ## intent:affirm
 - yeah looking for a specialist
@@ -244,3 +231,40 @@
 - yes
 - yes right
 - right on
+
+## intent:out_of_scope
+- sdjfklh
+- qwerty uiop[=
+- ]]]=\
+- qwerty
+- i am hungry
+- tell me a joke
+- hows the weather?
+- kkljl;jk ,mn,apoi
+- oiurteuriytoe mbsashduwy
+- Ahoy matey how are you?
+- are you alright
+- are you having a good day
+- Are you ok?
+- are you okay
+- Do you feel good?
+- how are things going
+- how are things with you?
+- How are things?
+- how are you
+- how are you doing
+- how are you doing this morning
+- how are you feeling
+- how are you today
+- How are you?
+- How is the weather today?
+- What's the weather like?
+- How is the weather?
+- What is the weather at your place?
+- Do you have good weather?
+- Is it raining?
+- What's it like out there?
+- Is it hot or cold?
+- Beautiful day, isn't it?
+- What's the weather forecast?
+- Is it quite breezy outside?
