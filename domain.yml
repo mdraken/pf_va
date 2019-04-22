@@ -4,11 +4,14 @@ intents:
 - findadoctor
 - inform
 - affirm
+- out_of_scope
 
 entities:
 - speciality
-- location
 - search_type
+- zipcode
+- state
+- city
 
 slots:
   speciality:
