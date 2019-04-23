@@ -1,10 +1,74 @@
 ## story_thankyou
 * thankyou
     - utter_noworries
-## story_findadoctor_happy
+## story_findadoctor1
 * greet
   - utter_greet
-* findadoctor
+* find_a_doctor
   - search_providers_form
   - form{"name":"search_providers_form"}
   - action_restart
+## story_findadoctor2
+* find_a_doctor
+  - search_providers_form
+  - form{"name":"search_providers_form"}
+  - action_restart
+## story_findadoctor_location1
+* find_a_doctor_location{"city":"Richmond"}
+  - set_location
+  - search_providers_form
+  - form{"name":"search_providers_form"}
+  - action_restart
+## story_findadoctor_location2
+* greet
+ - utter_greet
+* find_a_doctor_location{"city":"Los Angeles"}
+  - set_location
+  - search_providers_form
+  - form{"name":"search_providers_form"}
+  - action_restart
+## story_findadoctor_location3
+* find_a_doctor_location{"city":"San Francisco"}
+  - set_location
+  - search_providers_form
+  - form{"name":"search_providers_form"}
+  - action_restart
+## story_findadoctor_location4
+* greet
+ - utter_greet
+* find_a_doctor_location{"city":"Aurora"}
+  - set_location
+  - search_providers_form
+  - form{"name":"search_providers_form"}
+  - action_restart
+## story_findadoctor_location5
+* find_a_doctor_location{"state":"California"}
+  - set_location
+  - search_providers_form
+  - form{"name":"search_providers_form"}
+  - action_restart
+## story_findadoctor_location6
+* greet
+ - utter_greet
+* find_a_doctor_location{"state":"Ohio"}
+  - set_location
+  - search_providers_form
+  - form{"name":"search_providers_form"}
+  - action_restart
+## story_findadoctor_location7
+* find_a_doctor_location{"zipcode":"91344"}
+  - set_location
+  - search_providers_form
+  - form{"name":"search_providers_form"}
+  - action_restart
+## story_findadoctor_location8
+* greet
+ - utter_greet
+* find_a_doctor_location{"zipcode":"45040"}
+  - set_location
+  - search_providers_form
+  - form{"name":"search_providers_form"}
+  - action_restart
+# story_out_of_scope
+* out_of_scope
+  - utter_default

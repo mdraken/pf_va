@@ -33,69 +33,9 @@
 - cool, thanks
 - cool thank you
 
-## lookup:zipcode
-data/lookups/zipcodes.txt
-
-## lookup:state
-data/lookups/states.txt
-
-## lookup:city
-data/lookups/cities.txt
-
-## lookup:speciality
-data/lookups/specialities.txt
-
-## intent:inform
-- nearby [91344](zipcode)
-- near [14525](zipcode)
-- in [91335](zipcode)
-- close to [91001](zipcode)
-- close by [12466](zipcode)
-- around [10710](zipcode)
-- [90081](zipcode)
-- [45081](zipcode)
-- [21045](zipcode)
-- [10580](zipcode)
-- [24130](zipcode)
-- [93581](zipcode)
-- [Virginia](state)
-- in [Arizona](state)
-- [New York](state)
-- [Washington](state)
-- in [Oregon](state)
-- [Alaska](state)
-- [Sitka](city)
-- [Juneau](city)
-- [Cusseta](city)
-- [Chicago](city)
-- [Tucson](city)
-- [Columbus](city)
-- [Valdez](city)
-- [Preston](city)
-- [Huntsville](city)
-- [Boulder](city)
-- [California](state)
-- [Tulsa](city)
-- [Colorado](state)
-- [Goodyear](city)
-- [Albuquerque](city)
-- [Scottsdale](city)
-- [Hibbing](city)
-- [Norman](city)
-- [San](city)
-- [Peoria](city)
-- [New](city)
-- [Corpus](city)
-- [Montgomery](city)
-- [Wichita](city)
-- [Aurora](city)
-- [Denver](city)
-- [Sierra](city)
-- [Kansas](state)
-- [San Francisco](city)
-- [Santa Barbara](city)
+## intent:inform_speciality
 - [orthopedic](speciality)
-- [Physcian](speciality)  in [Richmond](city)
+- [Physcian](speciality)
 - [Cardiology](speciality)
 - [Chiropractic](speciality)
 - [Dermatology](speciality)
@@ -105,9 +45,9 @@ data/lookups/specialities.txt
 - [General Surgery](speciality)
 - [Hematology](speciality)
 - [Urology](speciality)
-- [Cardiologist](speciality) in [Richmond](city)
-- [Gastroenterologist](speciality) in [Richmond](city)
-- [Dermatologist](speciality) in [San Francisco](city)
+- [Cardiologist](speciality)
+- [Gastroenterologist](speciality)
+- [Dermatologist](speciality)
 - nearby [Dermatology](speciality)
 - nearby [Gastroenterologist](speciality)
 - nearby [Family Practice](speciality)
@@ -119,50 +59,20 @@ data/lookups/specialities.txt
 - [Urologist](speciality)
 - [Surgeon](speciality)
 - [General Surgeon](speciality)
-- [Richmond](city)
 - [Orthopedics - Lower](speciality)
 - [Orthopedics - Upper](speciality)
 - [Radiology](speciality)
 - [Radiologist](speciality)
-- find a doctor in [90014](zipcode)
-- find a doctor in [13748](zipcode)
-- find a doctor in [14021](zipcode)
-- find a doctor in [90081](zipcode)
-
-## intent:findadoctor
-- find a doctor
-- search for a doctor
-- get a doctor
-- need a doctor
-- i need a doctor
-- I need a Doctor
-- find care
-- care in [Richmond](city)
-- doctor in [Richmond](city)
-- doctor in [San Francisco](city)
-- i need a [orthopedic](speciality) doctor in [Richmond](city)
-- find a  [orthopedic](speciality) doctor in [Las Vegas](city)
-- i need a [Physcian](speciality) doctor in [Richmond](city)
-- find a nearby [orthopedic](speciality) doctor
-- find a nearby [Urology](speciality) doctor
-- find a nearby [Neurology](speciality) doctor
-- find a nearby [Dermatology](speciality) doctor
-- find a nearby [Dermatologist](speciality) doctor
-- find a nearby [Cardiologist](speciality) doctor
-- find a nearby [Physcian](speciality) doctor
-- i need a [Dermatologist](speciality) doctor in [San Francisco](city)
-- i need a [Gastroenterologist](speciality) doctor in [Richmond](city)
-- i need a [Cardiologist](speciality) doctor in [Richmond](city)
-- find doctor in [orthopedic](speciality)
-- find doctor in [Urology](speciality)
-- find doctor in [Neurology](speciality)
-- find doctor in [Dermatology](speciality)
+- - find doctor in [orthopedic](speciality)
+- find a doctor in [Urology](speciality)
+- find a doctor in [Neurology](speciality)
+- find a doctor in [Dermatology](speciality)
 - find doctor in [Dermatologist](speciality)
 - find doctor in [Cardiologist](speciality)
 - find doctor in [Physcian](speciality)
-- get doctor in [orthopedic](speciality)
-- get doctor in [Urology](speciality)
-- get doctor in [Neurology](speciality)
+- get a doctor in [orthopedic](speciality)
+- get a doctor in [Urology](speciality)
+- get a doctor in [Neurology](speciality)
 - get doctor in [Dermatology](speciality)
 - get doctor in [Dermatologist](speciality)
 - get doctor in [Cardiologist](speciality)
@@ -174,10 +84,10 @@ data/lookups/specialities.txt
 - doctor in [Dermatologist](speciality)
 - doctor in [Cardiologist](speciality)
 - doctor in [Physcian](speciality)
-- search doctor in [orthopedic](speciality)
-- search doctor in [Urology](speciality)
-- search doctor in [Neurology](speciality)
-- search doctor in [Dermatology](speciality)
+- search for a doctor in [orthopedic](speciality)
+- search for a doctor in [Urology](speciality)
+- search for a doctor in [Neurology](speciality)
+- search for a doctor in [Dermatology](speciality)
 - search doctor in [Dermatologist](speciality)
 - search doctor in [Cardiologist](speciality)
 - search doctor in [Physcian](speciality)
@@ -188,9 +98,9 @@ data/lookups/specialities.txt
 - find care in [Dermatologist](speciality)
 - find care in [Cardiologist](speciality)
 - find care in [Physcian](speciality)
-- find professional in [orthopedic](speciality)
-- find professional in [Urology](speciality)
-- find professional in [Neurology](speciality)
+- find a professional in [orthopedic](speciality)
+- find a professional in [Urology](speciality)
+- find a professional in [Neurology](speciality)
 - find professional in [Dermatology](speciality)
 - find professional in [Dermatologist](speciality)
 - find professional in [Cardiologist](speciality)
@@ -209,10 +119,204 @@ data/lookups/specialities.txt
 - doctor available [Dermatologist](speciality)
 - doctor available [Cardiologist](speciality)
 - doctor available [Physcian](speciality)
+- i need a [orthopedic](speciality)
+- find a  [orthopedic](speciality)
+- i need a [Physcian](speciality)
+- find a nearby [orthopedic](speciality) doctor
+- find a nearby [Urology](speciality) doctor
+- find a nearby [Neurology](speciality) doctor
+- find a nearby [Dermatology](speciality) doctor
+- find a nearby [Dermatologist](speciality) doctor
+- find a nearby [Cardiologist](speciality) doctor
+- find a nearby [Physcian](speciality) doctor
+- i need a [Dermatologist](speciality)
+- i need a [Gastroenterologist](speciality)
+- i need a [Cardiologist](speciality)
+
+## regex:zipcode
+- [0-9]{5}
+
+## lookup:state
+data/lookups/states.txt
+
+## lookup:city
+data/lookups/cities.txt
+
+## lookup:speciality
+data/lookups/specialities.txt
+
+## intent:find_a_doctor
+- find a doctor
+- search for a doctor
+- get a doctor
+- need a doctor
+- i need a doctor
+- I need a Doctor
+- find care
+- Find a Doctor
+- Search for a Doctor
+- Get a Doctor
+- search for care
+- I need care
+- i need care
+- find a nearby doctor
+- Find a nearby Doctor
+- i need help
+- I need help
+- search for professional
+- search for a professional
+
+## intent:inform_location
+- nearby [91344](zipcode)
+- nearby [80151](zipcode)
+- nearby [67589](zipcode)
+- nearby [45618](zipcode)
+- nearby [12057](zipcode)
+- nearby [10018](zipcode)
+- near [14525](zipcode)
+- near [25678](zipcode)
+- near [39071](zipcode)
+- near [30081](zipcode)
+- near [10051](zipcode)
+- near [90084](zipcode)
+- in [91335](zipcode)
+- in [40561](zipcode)
+- in [37812](zipcode)
+- in [95671](zipcode)
+- in [15678](zipcode)
+- in [20091](zipcode)
+- close to [91001](zipcode)
+- close to [91201](zipcode)
+- close to [95075](zipcode)
+- close to [14547](zipcode)
+- close to [10949](zipcode)
+- close to [26865](zipcode)
+- close by [12466](zipcode)
+- close by [39812](zipcode)
+- close by [61342](zipcode)
+- around [10710](zipcode)
+- around [13677](zipcode)
+- around [20771](zipcode)
+- around [80061](zipcode)
+- around [52298](zipcode)
+- around [71234](zipcode)
+- [90081](zipcode)
+- [45081](zipcode)
+- [21045](zipcode)
+- [10580](zipcode)
+- [24130](zipcode)
+- [91470](zipcode)
+- [90369](zipcode)
+- [89258](zipcode)
+- [78147](zipcode)
+- [67036](zipcode)
+- in [Arizona](state)
+- in [New York](state)
+- in [Washington](state)
+- in [Oregon](state)
+- in [Alaska](state)
+- [Valdez](city)
+- [Preston](city)
+- [Huntsville](city)
+- [Boulder](city)
+- [Hibbing](city)
+- [Norman](city)
+- [San](city)
+- [Peoria](city)
+- [New](city)
+- [Corpus](city)
+- [Montgomery](city)
+- [Wichita](city)
+- [Aurora](city)
+- [Denver](city)
+- [Sierra](city)
+- [San Francisco](city)
+- [Santa Barbara](city)
+- [Richmond](city)
+
+
+## intent:find_a_doctor_location
+- i need a doctor in [Preston](city)
+- i need a doctor in [Huntsville](city)
+- i need a doctor in [Boulder](city)
+- i need a doctor in [Hibbing](city)
+- i need a doctor in [Norman](city)
+- i need a doctor in [Sitka](city)
+- i need a doctor in [Juneau](city)
+- i need a doctor in [Cusseta](city)
+- i need a doctor in [Chicago](city)
+- i need a doctor in [Tucson](city)
+- i need a doctor in [Columbus](city)
+- find a doctor in [Sitka](city)
+- find a doctor in [Juneau](city)
+- find a doctor in [Cusseta](city)
+- find a doctor in [Chicago](city)
+- find a doctor in [Tucson](city)
+- find a care in [Columbus](city)
+- find a care in [Valdez](city)
+- find care in [San](city)
+- find care in [Peoria](city)
+- find care in [New](city)
+- find care in [Corpus](city)
+- doctor in [Montgomery](city)
+- doctor in [Scottsdale](city)
+- doctor in [Tulsa](city)
+- doctor in [Wichita](city)
+- doctor in [Aurora](city)
+- doctor in [Denver](city)
+- doctor in [Los Angeles](city)
+- doctor in [San Francisco](city)
+- a doctor in [Montgomery](city)
+- a doctor in [Scottsdale](city)
+- a doctor in [Tulsa](city)
+- a doctor in [Wichita](city)
+- a doctor in [Aurora](city)
+- a doctor in [Denver](city)
+- a doctor in [Los Angeles](city)
+- a doctor in [San Francisco](city)
+- care in [Sierra](city)
+- care in [San Francisco](city)
+- care in [Santa Barbara](city)
+- care in [Richmond](city)
+- care in [Goodyear](city)
+- care in [Albuquerque](city)
+- i need a doctor in [Virginia](state)
+- i need a doctor in [Kansas](state)
+- i need care in [California](state)
+- i need care in [Arizona](state)
+- doctor in [Colorado](state)
+- doctor in [Washington](state)
+- find care in [New York](state)
+- find care in [Maine](state)
 - find a doctor in [90014](zipcode)
 - find a doctor in [13748](zipcode)
 - find a doctor in [14021](zipcode)
 - find a doctor in [90081](zipcode)
+- doctor in [Preston](city)
+- doctor in [Huntsville](city)
+- find care in [Boulder](city)
+- find care in [California](state)
+- doctor in [Ohio](state)
+- doctor in [Virginia](state)
+- find care in [90014](zipcode)
+- find care in [13748](zipcode)
+- find care in [14021](zipcode)
+- doctor in [90081](zipcode)
+- doctor in [90369](zipcode)
+- doctor in [89258](zipcode)
+- care in [78147](zipcode)
+- care in [67036](zipcode)
+- care in [Richmond](city)
+- i need a doctor in [90081](zipcode)
+- i need a doctor in [45081](zipcode)
+- i need a doctor in [21045](zipcode)
+- i need a doctor in [10580](zipcode)
+- i need a doctor in [24130](zipcode)
+- i need a doctor in [91470](zipcode)
+- i need a doctor in [90369](zipcode)
+- i need a doctor in [89258](zipcode)
+- i need a doctor in [78147](zipcode)
+- i need a doctor in [67036](zipcode)
 
 ## intent:affirm
 - yeah looking for a specialist

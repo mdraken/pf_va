@@ -29,6 +29,13 @@ def _find_providers(location: Text, speciality: Text) -> List[Dict]:
 
     return results
 
+class SetLocation(Action):
+    def name(self):
+        return "set_location"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text,Any]):
+        return[SlotSet("location", next(tracker.get_latest_entity_values("city"), None))]
+
 class SearchProvidersForm(FormAction):
     """Custom form action to fill all slots required to find specific type
     of healthcare facilities in a certain city or zip code."""
@@ -41,17 +48,16 @@ class SearchProvidersForm(FormAction):
     @staticmethod
     def required_slots(tracker: Tracker) -> List[Text]:
         """A list of required slots that the form has to fill"""
-        # work in progress to have the form work when the user provides entities in the first message
-        # if not tracker.get_latest_entity_values():
-        #     if tracker.get_latest_entity_values()
+
         return ["speciality", "location"]
 
     def slot_mappings(self) -> Dict[Text, Any]:
         return {
-            "speciality": self.from_entity(entity="speciality",intent=["findadoctor","inform"]),
-            "location": [self.from_entity(entity="zipcode",intent=["findadoctor","inform"]),
-                        self.from_entity(entity="state",intent=["findadoctor","inform"]),
-                        self.from_entity(entity="city",intent=["findadoctor","inform"])]}
+            "speciality": self.from_entity(entity="speciality",intent="inform_speciality"),
+            "location": [self.from_entity(entity="zipcode",intent="inform_location"),
+                        self.from_entity(entity="state",intent="inform_location"),
+                        self.from_entity(entity="city",intent="inform_location")
+                        ]}
 
     def submit(self,dispatcher: CollectingDispatcher,tracker: Tracker,domain: Dict[Text, Any]) -> List[Dict]:
 
