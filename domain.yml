@@ -1,58 +1,60 @@
-intents:
-- greet
-- thankyou
-- findadoctor
-- inform
-- affirm
-- out_of_scope
-
-entities:
-- speciality
-- search_type
-- zipcode
-- state
-- city
-
-slots:
-  speciality:
-    type: unfeaturized
-    auto_fill: false
-  location:
-    type: unfeaturized
-    auto_fill: false
-  matches:
-    type: text
-  search_type:
-    type: text
-    auto_fill: false
-
-forms:
-- search_providers_form
-
+%YAML 1.1
+---
 actions:
 - utter_greet
-- utter_default
 - utter_noworries
-
+- utter_default
+- set_location
+entities:
+- state
+- zipcode
+- search_type
+- speciality
+- city
+forms:
+- search_providers_form
+intents:
+- inform_speciality
+- find_a_doctor
+- find_a_doctor_location
+- greet
+- thankyou
+- inform_location
+- affirm
+- out_of_scope
+slots:
+  location:
+    auto_fill: false
+    type: unfeaturized
+  matches:
+    type: text
+  requested_slot:
+    type: unfeaturized
+  search_type:
+    auto_fill: false
+    type: text
+  speciality:
+    auto_fill: false
+    type: unfeaturized
 templates:
-  utter_greet:
-  - text: "Hi. What are you looking for?"
-  utter_default:
-  - text: "Sorry, I didn’t understand that"
-  utter_noworries:
-  - text: "My pleasure."
-  - text: "You are welcome!"
-  utter_ask_location:
-  - text: "Please provide your city name."
-  - text: "What is you current city?"
-  - text: "Please provide your city name or zip code."
-  - text: "Please enter your zip code or city name to find local providers."
-  utter_ask_speciality:
-  - text: "Please provide speciality which you are looking for."
-  - text: "Provide the speciality"
-  - text: "Please mention the speciality"
   utter_ask_doctor_search:
-  - text: "Are you looking for a doctor?"
-  - text: "Do you need any help to find a doctor?"
+  - text: Are you looking for a doctor?
+  - text: Do you need any help to find a doctor?
+  utter_ask_location:
+  - text: Please provide your city name.
+  - text: What is you current city?
+  - text: Please provide your city name or zip code.
+  - text: Please enter your zip code or city name to find local providers.
+  utter_ask_speciality:
+  - text: Please provide speciality which you are looking for.
+  - text: Provide the speciality
+  - text: Please mention the speciality
+  utter_default:
+  - text: Sorry, I didn’t understand that
+  utter_greet:
+  - text: Hi. What are you looking for?
+  utter_noworries:
+  - text: My pleasure.
+  - text: You are welcome!
   utter_submit:
-  - text: "All done!"
+  - text: All done!
